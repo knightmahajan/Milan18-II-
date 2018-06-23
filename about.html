@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Milan 18</title>
+    <link rel="icon" type="image/png" href="./public/images/milanico.png"/>
+
+  <!-- Behavioral Meta Data -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Core Meta Data -->
+  <meta name="author" content="Diretorate Of student Affairs">
+  <meta name="description" content="Milan 18, SRM university Cultural Fest 11th edition">
+  <meta name="keywords" content="Milan,Cultural Fest,SRM University,Diretorate Of student Affairs,National Level Cultural Fest">
+
+  <!-- Open Graph Meta Data -->
+  <meta property="og:description" content="Milan 18, SRM university Cultural Fest 11th edition">
+  <meta property="og:image" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+
+  <!-- Twitter Card Meta Data -->
+ <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="http://wagerfield.github.io/parallax/index.html">
+  <meta name="twitter:creator" content="@wagerfield">
+  <meta name="twitter:title" content="parallax.html">
+  <meta name="twitter:description" content="Simple, lightweight Parallax Engine that reacts to the orientation of a smart device">
+  <meta name="twitter:image" content="http://wagerfield.github.io/parallax/assets/public/images/thumbnail.png"> 
+
+  <!-- Humans -->
+  <!-- <link rel="author" href="humans.txt" /> -->
+
+  <!-- Styles -->
+
+  <link rel="stylesheet" type="text/css" href="./public/stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="./public/stylesheets/component.css">
+  <link rel="stylesheet" type="text/css" href="./public/stylesheets/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./public/stylesheets/styles.css"/>
+
+  <style type="text/css">
+
+.image-holder {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 205vh;
+}
+
+      .cd-section {
+        height: 100vh;
+      }
+      
+      [data-animation="parallax"] .cd-section > div {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      [data-animation="parallax"] .cd-section:first-of-type > div {
+        background-image: url("../../imgages/back.jpg");
+      }
+
+      [data-animation="parallax"] .cd-section:nth-of-type(2) > div {
+        background-image: url("../../public/images/back.jpg"); 
+      }
+  </style>
+  <script src="./public/javascripts/jquery-1.11.1.min.js"></script> 
+  <script src="./public/javascripts/bootstrap.js"></script>
+  
+</head>
+<body>
+ <section>
+  <div class="header-top">
+        
+    <nav class="navbar navbar-default">
+      <div class="container-fluid" style="background:rgba(0, 0, 0, 0.75);">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+          
+       <div class="collapse navbar-collapse navbar-right" id="navbar">
+          <div class="top-nav">
+
+            <a href="index.html" class="hover-effect scroll">
+                <span>
+                  <span><b>HOME</b></span>
+                  <span><b>HOME</b></span>
+                  <span></span>
+                </span>
+              </a>
+
+              <a href="about.html" class="hover-effect scroll">
+                <span>
+                  <span><b>ABOUT US</b></span>
+                  <span><b>ABOUT US</b></span>
+                  <span></span>
+                </span>
+              </a>
+
+              <a href="events.html" class="hover-effect scroll">
+                <span>
+                  <span><b>EVENTS</b></span>
+                  <span><b>EVENTS</b></span>
+                  <span></span>
+                </span>
+              </a>
+
+              <a href="gallery.html" class="hover-effect scroll">
+                <span>
+                  <span><b>GALLERY</b></span>
+                  <span><b>GALLERY</b></span>
+                  <span></span>
+                </span>
+              </a>
+
+            <!-- <a href="team" class="hover-effect scroll">
+                <span>
+                  <span><b>THE TEAM</b></span>
+                  <span><b>THE TEAM</b></span>
+                  <span></span>
+                </span>
+              </a> -->
+              
+              <a href="contact.html" class="hover-effect scroll">
+                <span>
+                  <span><b>CONTACT</b></span>
+                  <span><b>CONTACT</b></span>
+                  <span></span>
+                </span>
+              </a>
+          </div>
+        </div>
+<div class="collapse navbar-collapse navbar-left" id="navbar">
+          <div class="top-nav">
+
+            <!-- <a href="http://srmuniv.ac.in/" class="hover-effect scroll navbar-left">
+                <span>
+                  <img src="./public/images/srm.png" style="width:100px;margin-top:12px;">
+                  <span></span>
+                </span>
+              </a>
+
+            <a href="http://srmdsa.org/home" class="hover-effect scroll navbar-left" style="width:50px;">
+                <span>
+                  <img src="./public/images/dsa.png" style="width:40px;margin-top:3px;">
+                  <span></span>
+                </span>
+              </a> -->
+
+            <a href="index.html" class="hover-effect scroll navbar-left">
+                <span>
+                  <img src="./public/images/milan logo.png" style="width:100px;margin-top:8px;">
+                  <span></span>
+                </span>
+              </a>
+            </div>
+        </div>
+
+      </div>
+    </nav>
+    </div>
+
+  <div id="fb-root"></div>
+
+
+  <div id="container" class="wrapper" style="top:50px;left:0%;right:0%">
+
+    <ul id="scene" class="scene unselectable"
+      data-friction-x="0.1"
+      data-friction-y="0.1"
+      data-scalar-x="25"
+      data-scalar-y="15">
+      <li class="layer" data-depth="0.00"></li>
+      <li class="layer" data-depth="0.10"><div class="background1"></div> 
+
+        <!-- for shifting carousel up-down , search : groove in bootstrap.css> -->    
+      <div style="top:2px;left:0px" id="custom-bootstrap-carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="null" data-keyboard="true">
+      <ol class="carousel-indicators">
+        <li data-target="#custom-bootstrap-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#custom-bootstrap-carousel" data-slide-to="1"></li>
+        <li data-target="#custom-bootstrap-carousel" data-slide-to="2"></li>
+        <li data-target="#custom-bootstrap-carousel" data-slide-to="3"></li>
+        <li data-target="#custom-bootstrap-carousel" data-slide-to="4"></li>
+      </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="./public/images/25/milan4.jpg">
+        </div>
+        <div class="item">
+            <img src="./public/images/25/milan12.jpg">
+        </div>
+        <div class="item">
+            <img src="./public/images/25/milan67.jpg">
+        </div>
+        <div class="item">
+            <img src="./public/images/25/milan11.jpg">
+        </div>
+        <div class="item">
+          <img src="./public/images/25/milan6.jpg" alt="ko">
+        </div>
+    </div>
+  </div>
+  </li>
+  </div>
+ </div>
+    </ul>
+</div>
+</section>
+<section class="image-holder" style="background-image: url(public/images/aboutmilan1.jpg);overflow: hidden">
+
+  <center><h1 style="font-family: gotham-bold;font-weight: 900;font-size: 50px;position: relative;bottom: -910px;"> About &nbspMilan </h1> </center>
+  <p style="font-family: gotham-bold;font-size: 1.975em;position: relative;bottom: -950px;text-align: justify;line-height:1.5;padding-left: 20px;padding-right: 20px">
+    Organised by the Directorate of Student Affairs, Milan is an exuberant national-level cultural festival, taking place in the month of March every year. With a mere 25 events at the time of its inception in 2008, Milan has grown to host over a 100 different creative and fun infused events across a variety of domains. From music to fashion, sports to literature, Milan has something for every person willing to participate. <br><br>
+    Apart from the multifarious domains, Milan brings to the university top-notch musical performances and proshows. Several prominent celebrities including Asha Bhonsle, Kamal Hassan, Aditya Roy Kapoor, John Abraham, Vishal and Shekhar have graced Milan with their presence over the years. The proshows include outstanding stand-up comedy acts by groups renowned all over the country, the latest being the East India Comedy show in Milan ‘17. <br><br>
+    The festival usually spans over four days during which the entire university is buzzing with excitement. Food stalls offering mouth-watering dishes attract a lot of visitors as well as campus residents. Adding to the charm, Milan offers a plethora of fun rides and games that break the monotony and provide an opportunity for recreation. <br><br>
+    To make the experience more special, every year Milan is focussed around a central theme. This time, the theme of Milan ’18 is ‘Cultural Voyage’, through which we aim to take the participants on a journey through time, highlighting various traditions, ideas and values. Culture is what differentiates one era from another. Over the course of the festival, we will attempt to capture this essence through a myriad of events and competitions from our diverse set of domains. Our main objective is to provide a stimulating and thought-provoking experience to every individual. Come and live the change with us at Milan ’18, and we promise you the best time of your life
+  </p>
+</section>
+
+<section class="image-holder" style="background-image: url(public/images/aboutsrm1.jpg);overflow: hidden;bottom:0%">
+
+  <center><h1 style="font-size: 50px;position: relative;bottom: -60px;font-family: gotham-bold;font-weight: 900"> About  SRM Institute of Science and Technology </h1> </center>
+  <a href="http://www.srmuniv.ac.in/" target="_blank">
+    <img src="./public/images/srm.png" alt="srm logo" style="position: absolute;top: 230vh;left: 40%;width: 350px;height: 250px">
+  </a>
+  <p style="font-weight: 600;font-size: 1.875em;position: absolute;top: 2400px;text-align: justify;font-family: gotham-bold;line-height:1.5;padding-left: 20px;padding-right: 20px">
+    Established in 1985, SRM Institute of Science and Technology is one among the leading private institutions of India, deemed and highly reputed for developing the best young minds across the country with its quality education.<br><br>
+    It has its flagship campus spread over a vast area of 250 acres, in Kattankulathur, near Chennai. This campus is equipped with all possible amenities, and houses SRM Hotel, SRM Hospital, research labs, prayer halls, a grand centralized library, and Asia's biggest auditorium. The various tributary branches of the Institute are spread all over from Ramapuram, Vadapalani, Trichy, and Amravati in South India to Modinagar in Delhi NCR, Sonipat, and Sikkim in the north. <br><br>
+    SRM is a multi stream Institute with disciplines ranging from the fields of Engineering and Technology, Science and Humanities to Architecture, Management, Law, Medicine, and Teacher education. Several students also pursue their dream courses in Nanotechnology, Genetics, and Nuclear Engineering. Directorate of Student Affairs, SRM nstitute of Science and Technology remains unmatched for the immense support and encouragement it provides to its students towards extracurricular activities: be it related to sports, literary, art, or social services. With the help of 2,000 highly experienced and trained faculty members, SRM has achieved its goal of providing a healthy, peaceful and propitious environment to 32,500 students. <br><br>
+    It's our firm belief at SRM Institute of Science and Technology (formerly known as SRM University), that to enhance the skills of our students, they must be provided with opportunities to explore their creativity.<br><br>
+    Cultural programs are organized several times during the year to encourage creative pursuits and nurture talent. Students form teams and share responsibility in organizing the events.<br><br>
+    SRM has been successfully consistent to maintain excellence in the academic standards since its inception. Learning is an enjoyable experience here, with experienced faculty, inspiring libraries and stimulating discussion rooms, large playgrounds and state-of-the-art labs. With a view to impart quality education SRM Institute of Science and Technology (formerly known as SRM University) functions at four  campuses.
+  </p>
+</section>
+
+
+
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./public/javascripts/libraries.min.js"></script>
+  <script src="./public/javascripts/jquery.parallax.js"></script>
+  <script>
+
+  // jQuery Selections
+  var $html = $('html'),
+      $container = $('#container'),
+      $prompt = $('#prompt'),
+      $toggle = $('#toggle'),
+      $about = $('#about'),
+      $scene = $('#scene');
+
+  // Hide browser menu.
+  (function() {
+    setTimeout(function(){window.scrollTo(0,0);},0);
+  })();
+
+  // Setup FastClick.
+  FastClick.attach(document.body);
+
+  // Add touch functionality.
+  if (Hammer.HAS_TOUCHEVENTS) {
+    $container.hammer({drag_lock_to_axis: true});
+    _.tap($html, 'a,button,[data-tap]');
+  }
+
+  // Add touch or mouse class to html element.
+  $html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
+
+  // Resize handler.
+  (resize = function() {
+    $scene[0].style.width = window.innerWidth + 'px';
+    $scene[0].style.height = window.innerHeight + 'px';
+    if (!$prompt.hasClass('hide')) {
+      if (window.innerWidth < 600) {
+        $toggle.addClass('hide');
+      } else {
+        $toggle.removeClass('hide');
+      }
+    }
+  })();
+
+  // Attach window listeners.
+  window.onresize = _.debounce(resize, 200);
+  window.onscroll = _.debounce(resize, 200);
+
+  function showDetails() {
+    $about.removeClass('hide');
+    $toggle.removeClass('i');
+  }
+
+  function hideDetails() {
+    $about.addClass('hide');
+    $toggle.addClass('i');
+  }
+
+  // Listen for toggle click event.
+  $toggle.on('click', function(event) {
+    $toggle.hasClass('i') ? showDetails() : hideDetails();
+  });
+
+  
+  $scene.parallax();
+
+  // Check for orientation support.
+  setTimeout(function() {
+    if ($scene.data('mode') === 'cursor') {
+      $prompt.removeClass('hide');
+      if (window.innerWidth < 600) $toggle.addClass('hide');
+      $prompt.on('click', function(event) {
+        $prompt.addClass('hide');
+        if (window.innerWidth < 600) {
+          setTimeout(function() {
+            $toggle.removeClass('hide');
+          },1200);
+        }
+      });
+    }
+  },1000);
+
+  // Twitter stuff.
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+  // Facebook stuff.
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_GB/all.js#xfbml=1&appId=709933052350821";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+<script>
+  var offset = $(window).scrollTop() - actualBlock.offset().top,
+  windowHeight = $(window).height();
+ 
+  if( offset >= -windowHeight && offset <= 0 ) {
+  // section entering the viewport
+    translateY = (-offset)*100/windowHeight;
+    scale = 1;
+    opacity = 1;
+  } 
+  else if( offset > 0 && offset <= windowHeight ) {
+  //section leaving the viewport 
+    scale = (1 - ( offset * 0.3/windowHeight));
+  opacity = ( 1 - ( offset/windowHeight) );
+  translateY = 0;
+  boxShadowBlur = 40*(offset/windowHeight);
+  }
+</script>
+
+</body>
+
+</html>

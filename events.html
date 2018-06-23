@@ -1,0 +1,2673 @@
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Milan 18</title>
+    <link rel="icon" type="image/png" href="./public/images/milanico.png"/>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="Diretorate Of student Affairs">
+	<meta name="description" content="Milan 18, SRM university Cultural Fest 11th edition">
+	<meta name="keywords" content="Milan,Cultural Fest,SRM University,Diretorate Of student Affairs,National Level Cultural Fest">
+
+	<!-- Open Graph Meta Data -->
+	<meta property="og:description" content="Milan 18, SRM university Cultural Fest 11th edition">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+
+
+	<link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+	<style type="text/css">
+	.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+
+.icon-cube1 {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube1::before,
+.icon-cube1::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./public/images/nfb.png");
+  background-image: url("./public/images/nfb.png"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube1::before {
+  z-index: 2;
+  background-color: #383838;
+}
+
+.icon-cube1::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube1:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube1:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube1.facebook::before,
+.icon-cube1.facebook::after {
+  background-position: 3px 3px;
+}
+
+.icon-cube1.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube1.twitter::before,
+.icon-cube1.twitter::after {
+  background-position: 0 0;
+}
+
+.icon-cube1.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube1.googleplus::before,
+.icon-cube1.googleplus::after {
+  background-position: 0px 0;
+}
+
+.icon-cube1.googleplus::after {
+  background-color: #d34836;
+}
+
+/* github */
+
+/*for second cube*/
+
+.icon-cube2 {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube2::before,
+.icon-cube2::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./public/images/ntwitter.png");
+  background-image: url("./public/images/ntwitter.png"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube2::before {
+  z-index: 2;
+  background-color: #383838;
+}
+
+.icon-cube2::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube2:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube2:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* twitter */
+.icon-cube2.twitter::before,
+.icon-cube2.twitter::after {
+  background-position: 0 0;
+}
+
+.icon-cube2.twitter::after {
+  background-color: #4099ff;
+}
+
+/*for third cube*/
+
+.icon-cube3 {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube3::before,
+.icon-cube3::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./public/images/nyoutube.png");
+  background-image: url("./public/images/nyoutube.png"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube3::before {
+  z-index: 2;
+  background-color: #383838;
+}
+
+.icon-cube3::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube3:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube3:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube3.facebook::before,
+.icon-cube3.facebook::after {
+  background-position: 3px 3px;
+}
+
+.icon-cube3.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube3.twitter::before,
+.icon-cube3.twitter::after {
+  background-position: 0 0;
+}
+
+.icon-cube3.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube3.googleplus::before,
+.icon-cube3.googleplus::after {
+  background-position: 0px 0;
+}
+
+.icon-cube3.googleplus::after {
+  background-color: #b31217;
+}
+
+
+
+
+.icon-cube4 {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube4::before,
+.icon-cube4::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./public/images/insta.png");
+  background-image: url("./public/images/insta.png"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube4::before {
+  z-index: 2;
+  background-color: #383838;
+}
+
+.icon-cube4::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube4:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube4:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube4.facebook::before,
+.icon-cube4.facebook::after {
+  background-position: 3px 3px;
+}
+
+.icon-cube4.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube4.twitter::before,
+.icon-cube4.twitter::after {
+  background-position: 0 0;
+}
+
+.icon-cube4.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube4.googleplus::before,
+.icon-cube4.googleplus::after {
+  background-position: 0px 0;
+}
+
+.icon-cube4.googleplus::after {
+  background-color: #9b683f;
+}
+
+#right_sidebar {
+  position: absolute;
+  right: 1px;
+  top: 200px;
+}
+
+#myModal, #myModal1{
+  z-index: 999999;
+}
+
+
+.tab {
+overflow: visible;
+padding: 0px 3px 0px 0px;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #333;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ffffff;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.tablinks{
+	width: 300px;
+  height: 70px;
+	margin-right: 1px;
+}
+
+
+a {
+  display: block;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  color: #999;
+}
+
+a:hover {color: #777;}
+
+.navigation1,.navigation2,.navigation3,.navigation4,.navigation5,.navigation6{
+  list-style: none;
+}
+
+.navigation1,.navigation1 a.main,.navigation2,.navigation2 a.main,.navigation3,.navigation3 a.main,.navigation4,.navigation4 a.main,.navigation5,.navigation5 a.main,.navigation6,.navigation6 a.main{
+  border-radius: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.navigation1:hover,.navigation1:hover a.main,.navigation2:hover,.navigation2:hover a.main,.navigation3:hover,.navigation3:hover a.main,.navigation4:hover,.navigation4:hover a.main,.navigation5:hover,.navigation5:hover a.main , .navigation6:hover,.navigation6:hover a.main{
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -ms-border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
+}
+
+.navigation1 a.main,.navigation2 a.main,.navigation3 a.main,.navigation4 a.main,.navigation5 a.main,.navigation6 a.main {
+  display: block; 
+  position: absolute;
+  top: 100px;
+  height: 40px;
+  font: bold 15px/40px arial, sans-serif; 
+  text-align: center; 
+  text-decoration: none; 
+  color: #FFF;  
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.navigation1:hover a.main,.navigation2:hover a.main,.navigation3:hover a.main,.navigation4:hover a.main,.navigation5:hover a.main,.navigation6:hover a.main{
+  color: rgba(255,255,255,0.6);
+  background: rgba(0,0,0,0.04);
+}
+
+.navigation1 li,.navigation2 li,.navigation3 li,.navigation4 li,.navigation5 li,.navigation6 li{ 
+  width:350px; 
+  height: 100px;
+  background: #F7F7F7;
+  font: normal 12px/40px arial, sans-serif !important; 
+  color: #999;
+  text-align: center;
+  border: 5px black;
+  -webkit-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: perspective(350px) rotateX(-90deg);
+  -moz-transform: perspective(350px) rotateX(-90deg);
+  -ms-transform: perspective(350px) rotateX(-90deg);
+  -o-transform: perspective(350px) rotateX(-90deg);
+  transform: perspective(350px) rotateX(-90deg);
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  -o-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  -ms-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+}
+
+.navigation1 li.n11 {
+  position: absolute;
+  top: 350px;
+  -webkit-transition: 0.2s linear 0.16s;
+  -o-transition: 0.2s linear 0.16s;
+  -moz-transition: 0.2s linear 0.16s;
+  -ms-transition: 0.2s linear 0.16s;
+  transition: 0.2s linear 0.16s;
+}
+.navigation1 li.n12 {
+  position: absolute;
+  top: 400px;
+  -webkit-transition: 0.2s linear 0.14s;
+  -o-transition: 0.2s linear 0.14s;
+  -moz-transition: 0.2s linear 0.14s;
+  -ms-transition: 0.2s linear 0.14s;
+  transition: 0.2s linear 0.14s;
+}
+.navigation1 li.n13 {
+  position: absolute;
+  top: 450px;
+  -webkit-transition: 0.2s linear 0.12s;
+  -moz-transition: 0.2s linear 0.12s;
+  -ms-transition: 0.2s linear 0.12s;
+  -o-transition: 0.2s linear 0.12s;
+  transition: 0.2s linear 0.12s;
+}
+.navigation1 li.n14 { 
+  position: absolute;
+  top: 500px;
+  -webkit-transition:0.2s linear 0.10s;
+  -o-transition:0.2s linear 0.10s;
+  -moz-transition:0.2s linear 0.10s;
+  -ms-transition:0.2s linear 0.10s;
+  transition:0.2s linear 0.10s;
+}
+.navigation1 li.n15 {
+  position: absolute;
+  top: 550px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.8s;
+  -o-transition: 0.2s linear 0.8s;
+  transition: 0.2s linear 0.8s;
+}
+.navigation1 li.n16 {
+  position: absolute;
+  top: 600px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.6s;
+  -o-transition: 0.2s linear 0.6s;
+  -moz-transition: 0.2s linear 0.6s;
+  -ms-transition: 0.2s linear 0.6s;
+  transition: 0.2s linear 0.6s;
+}
+.navigation1 li.n17 {
+  position: absolute;
+  top: 650px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.4s;
+  -moz-transition: 0.2s linear 0.4s;
+  -o-transition: 0.2s linear 0.4s;
+  -ms-transition: 0.2s linear 0.4s;
+  transition: 0.2s linear 0.4s;
+}
+.navigation1 li.n18 {
+  position: absolute;
+  top: 700px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.2s;
+  -moz-transition: 0.2s linear 0.2s;
+  -ms-transition: 0.2s linear 0.2s;
+  -o-transition: 0.2s linear 0.2s;
+  transition: 0.2s linear 0.2s;
+}
+.navigation1 li.n19 {
+  position: absolute;
+  top: 750px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0s;
+  -o-transition: 0.2s linear 0s;
+  -moz-transition: 0.2s linear 0s;
+  -ms-transition: 0.2s linear 0s;
+  transition: 0.2s linear 0s;
+}
+
+
+.navigation1:hover li {
+  -webkit-transform: perspective(350px) rotateX(0deg);
+  -o-transform: perspective(350px) rotateX(0deg);
+  transform: perspective(350px) rotateX(0deg);
+  -webkit-transition:0.2s linear 0s;
+  -o-transition:0.2s linear 0s;
+  transition:0.2s linear 0s;
+}
+
+.navigation1:hover .n12 {
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.navigation1:hover .n13 {
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.navigation1:hover .n14 {
+  transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+.navigation1:hover .n15 {
+  -webkit-transition-delay: 0.8s;
+  -o-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+.navigation1:hover .n16 {
+  -webkit-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.12s;
+}
+.navigation1:hover .n17 {
+  -webkit-transition-delay: 0.6s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.14s;
+}
+.navigation1:hover .n18 {
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.navigation1:hover .n19 {
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+
+
+
+
+.navigation2 li.n21,.navigation3 li.n31,.navigation4 li.n41,.navigation5 li.n51,.navigation6 li.n61 {
+  position: absolute;
+  top: 350px;
+  -webkit-transition: 0.2s linear 0.22s;
+  -o-transition: 0.2s linear 0.22s;
+  transition: 0.2s linear 0.22s;
+}
+.navigation2 li.n22,.navigation3 li.n32,.navigation4 li.n42,.navigation5 li.n52,.navigation6 li.n62{
+  position: absolute;
+  top: 390px;
+  -webkit-transition: 0.2s linear 0.20s;
+  -o-transition: 0.2s linear 0.20s;
+  transition: 0.2s linear 0.20s;
+}
+.navigation2 li.n23,.navigation3 li.n33,.navigation4 li.n43,.navigation5 li.n53,.navigation6 li.n63 {
+  position: absolute;
+  top: 430px;
+  -webkit-transition: 0.2s linear 0.18s;
+  -o-transition: 0.2s linear 0.18s;
+  transition: 0.2s linear 0.18s;
+}.navigation3 li.n34,.navigation4 li.n44,.navigation5 li.n54,.navigation6 li.n64 { 
+  position: absolute;
+  top: 470px;
+  -webkit-transition:0.2s linear 0.16s;
+  -o-transition:0.2s linear 0.16s;
+  transition:0.2s linear 0.16s;
+}.navigation3 li.n35,.navigation4 li.n45,.navigation5 li.n55,.navigation6 li.n65 {
+  position: absolute;
+  top: 510px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.14s;
+  -o-transition: 0.2s linear 0.14s;
+  transition: 0.2s linear 0.14s;
+}.navigation3 li.n36,.navigation4 li.n46,.navigation5 li.n56,.navigation6 li.n66 {
+  position: absolute;
+  top: 550px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.12s;
+  -o-transition: 0.2s linear 0.12s;
+  transition: 0.2s linear 0.12s;
+}.navigation3 li.n37,.navigation4 li.n47,.navigation5 li.n57,.navigation6 li.n67 {
+  position: absolute;
+  top: 590px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.10s;
+  -o-transition: 0.2s linear 0.10s;
+  transition: 0.2s linear 0.10s;
+}.navigation3 li.n38,.navigation4 li.n48,.navigation5 li.n58,.navigation6 li.n68 {
+  position: absolute;
+  top: 630px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.8s;
+  -o-transition: 0.2s linear 0.8s;
+  transition: 0.2s linear 0.8s;
+}.navigation3 li.n39,.navigation4 li.n49,.navigation5 li.n59,.navigation6 li.n69 {
+  position: absolute;
+  top: 670px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.6s;
+  -o-transition: 0.2s linear 0.6s;
+  transition: 0.2s linear 0.6s;
+}
+.navigation3 li.n391,.navigation4 li.n491,.navigation5 li.n591,.navigation6 li.n691 {
+  position: absolute;
+  top: 710px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.4s;
+  -o-transition: 0.2s linear 0.4s;
+  transition: 0.2s linear 0.4s;
+}
+.navigation3 li.n392,.navigation4 li.n492,.navigation5 li.n592,.navigation6 li.n692 {
+  position: absolute;
+  top: 750px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0.2s;
+  -o-transition: 0.2s linear 0.2s;
+  transition: 0.2s linear 0.2s;
+}
+.navigation5 li.n593,.navigation6 li.n693 {
+  position: absolute;
+  top: 790px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0s;
+  -o-transition: 0.2s linear 0s;
+  transition: 0.2s linear 0s;
+}
+
+
+.navigation2:hover li,.navigation3:hover li,.navigation4:hover li,.navigation5:hover li,.navigation6:hover li {
+  -webkit-transform: perspective(350px) rotateX(0deg);
+  -o-transform: perspective(350px) rotateX(0deg);
+  transform: perspective(350px) rotateX(0deg);
+  -webkit-transition:0.2s linear 0s;
+  -o-transition:0.2s linear 0s;
+  transition:0.2s linear 0s;
+}
+
+.navigation2:hover .n22,.navigation3:hover .n32,.navigation4:hover .n42,.navigation5:hover .n52,.navigation6:hover .n62 {
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.navigation2:hover .n23,.navigation3:hover .n33,.navigation4:hover .n43,.navigation5:hover .n53,.navigation6:hover .n63 {
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+navigation3:hover .n34,.navigation4:hover .n44,.navigation5:hover .n54,.navigation6:hover .n64{
+  transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+navigation3:hover .n35,.navigation4:hover .n45,.navigation5:hover .n55,.navigation6:hover .n65 {
+  -webkit-transition-delay: 0.8s;
+  -o-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+navigation3:hover .n36,.navigation4:hover .n46,.navigation5:hover .n56,.navigation6:hover .n66 {
+  -webkit-transition-delay: 0.10s;
+  -o-transition-delay: 0.10s;
+  transition-delay: 0.10s;
+}
+navigation3:hover .n37,.navigation4:hover .n47,.navigation5:hover .n57,.navigation6:hover .n67{
+  -webkit-transition-delay: 0.12s;
+  -o-transition-delay: 0.12s;
+  transition-delay: 0.12s;
+}
+navigation3:hover .n38,.navigation4:hover .n48,.navigation5:hover .n58,.navigation6:hover .n68 {
+  -webkit-transition-delay: 0.14s;
+  -o-transition-delay: 0.14s;
+  transition-delay: 0.14s;
+}
+navigation3:hover .n39,.navigation4:hover .n49,.navigation5:hover .n59,.navigation6:hover .n69 {
+  -webkit-transition-delay: 0.16s;
+  -o-transition-delay: 0.16s;
+  transition-delay: 0.16s;
+}
+
+.navigation3:hover .n391,.navigation4:hover .n491,.navigation5:hover .n591,.navigation6:hover .n691 {
+  -webkit-transition-delay: 0.18s;
+  -o-transition-delay: 0.18s;
+  transition-delay: 0.18s;
+}
+.navigation3:hover .n392,.navigation4:hover .n492,.navigation5:hover .n592,.navigation6:hover .n692 {
+  -webkit-transition-delay: 0.20s;
+  -o-transition-delay: 0.20s;
+  transition-delay: 0.20s;
+}
+.navigation5:hover .n593{
+  -webkit-transition-delay: 0.22s;
+  -o-transition-delay: 0.22s;
+  transition-delay: 0.22s;
+}
+
+#overlay11,#overlay12,#overlay13,#overlay14,#overlay15,#overlay16,#overlay17,#overlay18,#overlay19,#overlay21,#overlay22,#overlay23,#overlay31,#overlay32,#overlay33,#overlay34,#overlay35,#overlay36,#overlay37,#overlay38,#overlay39,#overlay391,#overlay392,#overlay41,#overlay42,#overlay43,#overlay44,#overlay45,#overlay46,#overlay47,#overlay48,#overlay49,#overlay491,#overlay492,#overlay51,#overlay52,#overlay53,#overlay54,#overlay55,#overlay56,#overlay57,#overlay58,#overlay59,#overlay591,#overlay592,#overlay593,#overlay61,#overlay62,#overlay63,#overlay64,#overlay65,#overlay66,#overlay67,#overlay68,#overlay69,#overlay691,#overlay692{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 5;
+    cursor: pointer;
+    background-color: rgb(0,0,0);
+}
+
+#text11,#text12,#text13,#text14,#text15,#text16,#text17,#text18,#text19,#text21,#text22,#text23,#text31,#text32,#text33,#text34,#text35,#text36,#text37,#text38,#text39,#text391,#text392,#text41,#text42,#text43,#text44,#text45,#text46,#text47,#text48,#text49,#text491,#text492,#text493,#text51,#text52,#text53,#text54,#text55,#text56,#text57,#text58,#text59,#text591,#text592,#text593,#text61,#text62,#text63,#text64,#text65,#text66,#text67,#text68,#text69,#text691,#text692 {
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    font-size: 50px;
+    line-height: 1.5;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+
+}
+
+.anime11,.anime12,.anime13,.anime14,.anime15,.anime16,.anime17,.anime18,.anime19,.anime21,.anime22,.anime23,.anime31,.anime32,.anime33,.anime34,.anime35,.anime36,.anime37,.anime38,.anime39,.anime391,.anime392,.anime41,.anime42,.anime43,.anime44,.anime45,.anime46,.anime47,.anime48,.anime49,.anime491,.anime492,.anime51,.anime52,.anime53,.anime54,.anime55,.anime56,.anime57,.anime58,.anime59,.anime591,.anime592,.anime593,.anime61,.anime62,.anime63,.anime64,.anime65,.anime66,.anime67,.anime68,.anime69,.anime691,.anime692,.anime693{
+  position: absolute;
+  top: 5px;
+  left: 10%;
+  width: 1050px;
+  font-size: 25px;
+  font-weight: 2.0;
+  text-align: left;
+  line-height: 1.2;
+  border: 5px solid green;
+  padding: 15px;
+  /*z-index: 10;*/
+}
+
+</style>
+
+	</style>
+	<script type ="text/javascript" src="./public/javascripts/jquery-1.11.1.min.js"></script> 
+	<script type ="text/javascript" src="./public/javascripts/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="./public/stylesheets/component.css">
+	<link rel="stylesheet" type="text/css" href="./public/stylesheets/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./public/stylesheets/styles.css"/>
+	
+
+</head>
+<body>
+
+<video style="position: fixed;bottom:-40px;min-width:100%;min-height:100%" autoplay loop>
+  <source src="./public/images/back4.mp4" type="video/mp4">
+</video>
+
+<div class="header-top">
+				
+		<nav class="navbar navbar-default">
+			<div class="container-fluid" style="background:rgba(0, 0, 0, 0.75);">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> 
+					
+				<div class="collapse navbar-collapse navbar-right" id="navbar">
+					<div class="top-nav">
+
+						<a href="index.html" class="hover-effect scroll">
+								<span>
+									<span><b>HOME</b></span>
+									<span><b>HOME</b></span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="about.html" class="hover-effect scroll">
+								<span>
+									<span><b>ABOUT US</b></span>
+									<span><b>ABOUT US</b></span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="events.html" class="hover-effect scroll">
+								<span>
+									<span><b>EVENTS</b></span>
+									<span><b>EVENTS</b></span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="gallery.html" class="hover-effect scroll">
+								<span>
+									<span><b>GALLERY</b></span>
+									<span><b>GALLERY</b></span>
+									<span></span>
+								</span>
+							</a>
+
+							
+							<a href="contact.html" class="hover-effect scroll">
+								<span>
+									<span><b>CONTACT</b></span>
+									<span><b>CONTACT</b></span>
+									<span></span>
+								</span>
+							</a>
+
+
+					</div>
+				</div>
+<div class="collapse navbar-collapse navbar-left" id="navbar">
+					<div class="top-nav">
+
+						<!-- <a href="http://srmuniv.ac.in/" class="hover-effect scroll navbar-left">
+								<span>
+									<img src="./public/images/srm.png" style="width:100px;margin-top:12px;">
+									<span></span>
+								</span>
+							</a>
+
+						<a href="http://srmdsa.org/home" class="hover-effect scroll navbar-left" style="width:50px;">
+								<span>
+									<img src="./public/images/dsa.png" style="width:40px;margin-top:3px;">
+									<span></span>
+								</span>
+							</a> -->
+
+						<a href="index.html" class="hover-effect scroll navbar-left">
+								<span>
+									<img src="./public/images/milan logo.png" style="width:120px;margin-top:6px;">
+									<span></span>
+								</span>
+							</a>
+						</div>
+				</div>
+
+			</div>
+		</nav>
+		</div>
+
+	<div id="fb-root"></div>
+
+
+	<div id="container" class="wrapper">
+		<center>
+
+		<ul id="scene" class="scene unselectable"
+			data-friction-x="0.1"
+			data-friction-y="0.1"
+			data-scalar-x="25"
+			data-scalar-y="15">
+			<li class="layer" data-depth="0.00"></li>
+			<li class="layer" data-depth="0.10"></li>
+
+
+      <div id="overlay11" onclick="off11()">
+        <div id="text11">
+          <p class="anime11">
+            Event : Western Solo (Freestyle) <br><br>
+            Venue : - Mini Hall-1<br><br>
+            Time Limit: - 3 Mins<br><br>
+           <!--  Prize:- <br> 1st Prize – INR 2000<br> 2nd Prize – INR 1000<br><br>
+ -->            Rules: - <br>
+              1) The Competition Music must not contain Inappropriate, lewd or offensive language <br>
+              2) Any Style Can Be Incorporated.<br>
+              3) No Vulgarity Would Be Tolerated.<br>
+              4) Prop Usage Is Allowed, But It Shouldn’t Damage the Stage<br><br>
+            Example: Fire, Sharp Objects Etc. <br><br>
+            Judging Criteria: -<br>
+            Style, Expression, Prop usage (if any), Choreography, presentation.<br><br>
+            Description: - <br>
+              Be It Ballet to Bollywood to Broadway to jazz to contemporary to hip-hop. We don't pull choice of style. We only turn the woofers up and set the stage for its all yours to set ablaze with individuality and passion as you dance your way to glory.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay12" onclick="off12()">
+        <div id="text12">
+          <p class="anime12">
+            Event : Eastern Solo (Freestyle) <br><br>
+            Venue : - Mini Hall-1<br><br>
+            Time Limit : -3 Mins<br><br>
+            <!-- Prize : -<br>1st Prize – INR 2000<br>2nd Prize – INR 1000<br><br> -->
+            Rules: -<br>
+              1) Songs Should Be Of Proper classical Jaunre.<br>
+              2) Any Classical Style Can Be incorporated.<br>
+              3) Proper Classical Costume Should Be Followed.<br>
+              4) No Vulgarity Would Be Tolerated.<br>
+              5) Prop Usage Is Allowed, But It Shouldn’t Damage the Stage. example: Fire, Sharp     Objects Etc.<br><br>
+            Judging Criteria : Style, Expression, Prop Usage (If Any), Choreography, presentation.<br><br>
+            Description: - <br>
+              There is nothing more soul stirring than the plethora of our cultural dance forms. Emote your wildest expressions, enthral the masses and leave a footprint.
+          </p>
+        </div>
+      </div> 
+
+      <div id="overlay13" onclick="off13()">
+        <div id="text13">
+          <p class="anime13">
+            Event : Western Solo (Proffesional Level)<br><br>
+            Venue: - Mini Hall-1<br><br>
+            Time Limit: - 3 Mins<br><br>
+            <!-- Prize:-<br>1st Prize – INR 4000<br>2nd Prize – INR 2000<br><br> -->
+            Rules: -<br>
+              1) Songs Should Be Of Proper classical Jaunre.<br>
+              2) Any Classical Style Can Be incorporated.<br>
+              3) Proper Classical Costume Should Be Followed.<br>
+              4) No Vulgarity Would Be Tolerated.<br>
+              5) Prop Usage Is Allowed, But It Shouldn’t Damage the Stage. example: Fire, Sharp Objects Etc.<br><br>
+              6) The Competition Music must not contain Inappropriate, lewd or offensive language <br>
+            Judging Criteria: - Style, Expression, Prop Usage (If Any), Choreography, presentation.<br><br>
+            Description: - <br>
+              Be It Ballet to Bollywood To Broadway To Jazz To Contemporary To Hip-Hop. We Don't Pull Choice Of Style. We Only Turn The Woofers Up And Set The Stage For Its All Yours To Set Ablaze With Individuality And Passion As You Dance Your Way To Glory.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay14" onclick="off14()">
+        <div id="text14">
+          <p class="anime14">
+            Event :- Duet Freestyle <br><br>
+            Venue: - Mini Hall-1<br><br>
+            Time Limit: - 4 Mins<br><br>
+
+            <!-- Prize: -<br>1st Prize – INR 4000<br>2nd Prize – INR 2000<br><br -->
+              Rules: -<br>
+              1) Songs Should Be Of Proper classical Jaunre.<br>
+              2) Any Classical Style Can Be incorporated.<br>
+              3) Proper Classical Costume Should Be Followed.<br>
+              4) No Vulgarity Would Be Tolerated.<br>
+              5) Prop Usage Is Allowed, But It Shouldn’t Damage the Stage. example: Fire, Sharp Objects Etc.<br><br>
+            Judging Criteria: - Style, Expression, Prop Usage (If Any), Choreography, presentation.<br><br>
+
+            Description: -<br>
+              They Say Two’s A Company, Three’s A Crowd. This World Works On A Mechanism Of Duality. Nature Smiles At Her Creations By Crafting The Universe In Entities That Have A Pair To Go Hand In Hand With It. To Every Ying, There Is Always A Yang.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay15" onclick="off15()">
+        <div id="text15">
+          <p class="anime15">
+            Event: Tripples Freestyle <br><br>
+            Venue: - Mini Hall-1<br><br>
+            Time Limit: - 4 Mins<br><br>
+            <!-- Prize: -<br>1st Prize – INR 4000<br>2nd Prize – INR 2000<br><br> -->
+            Rules: -<br>
+              1) Songs Should Be Of Proper classical Jaunre.
+              2) Any Classical Style Can Be incorporated.
+              3) Proper Classical Costume Should Be Followed.
+              4) No Vulgarity Would Be Tolerated.
+              5) Prop Usage Is Allowed, But It Shouldn’t Damage the Stage. example: Fire, Sharp Objects Etc.<br><br>
+            Judging Criteria: - Style, Expression, Prop Usage (If Any), Choreography, presentation.<br><br>
+            Description: -<br>
+              They Say Three’s A Boom. Nature Smiles At Her Creations By Crafting The Universe In Entities That Have A Tri To Go Hand In Hand With Each Other.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay16" onclick="off16()">
+        <div id="text16">
+          <p class="anime16">
+            Event : Folk Battle <br><br>
+            Venue: - Mini Hall-1<br><br>
+            Time Limit: -   <br>1 Vs 1 <br>2 Round Each<br> 50 Sec Per Participants Performance.<br><br>
+            <!-- Prize: - 1st Prize – INR 2000<br><br>-->
+            Rules: - Free style On Bollywood/Folk Songs.<br><br>
+            Requirements: - Water Bottles For All The Participants During Battle.<br><br>
+            Judging Criteria: - Judge’s Decision Will Be Taken Into Account.<br><br>
+            Description: -<br>
+              There Will Be A One On One Battle, Where Each Participant’s Will Groove And Show Their Style On Bollywood/Folk Songs.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay17" onclick="off17()">
+        <div id="text17">
+          <p class="anime17">
+            Event : Group Battle <br><br>
+            Venue: - Auditorium Stage<br><br>
+            Team Members: - 5 In Each Team.<br><br>
+            Time Limit: - <br> 
+            1 Team Vs 1 Team<br>
+            2 Round Each. <br>
+            50 secs per team performance.<br><br>
+            <!-- Prize: - 1st Prize – INR 5000<br><br> -->
+            Rules: - <br>
+            All Style Battle Not Only Breaking (B-Boying) Battle.<br><br>
+            Requirements: - <br>
+              Water Bottles For All The Participants During Battle.<br><br>
+            Judging Criteria: -<br>
+              Judge’s Decision Will Be Taken Into Account.<br><br>
+            Description: -<br>
+              There Will Be Wo Teams Facing Each Other, Where Each Team Will Groove And Show Their Style And Teamwork On Any Song Played.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay18" onclick="off18()">
+        <div id="text18">
+          <p class="anime18">
+            Event : Choreo Night (Non-Theme) <br><br>
+            Venue: - Auditorium Stage<br><br>
+            Team Members: - 8-30 in Each Team.<br><br>
+            Time Limit: - 8 Mins + 2mins (Stage Setup)<br><br>
+            <!-- Prize: - <br>
+              1st Prize – INR 15000<br>
+              2nd Prize – INR 7500<br><br> -->
+            Rules: -<br>
+                  1) The Competition Music Must Not Contain Inappropriate, Lewd or offensive Language. <br>
+                  2) Any Style Can Be Incorporated.<br>
+                  3) No Vulgarity Would Be Tolerated.<br>
+                  4) Prop Usage is allowed, but it shouldn’t damage the Stage Example: Fire, Sharp Objects etc.<br><br>
+
+            Judging Criteria: - Style, Choreography, Presentation, Coordination, Stage Usage.<br><br>
+
+            Description: -<br>
+              Listen To The Thump Of The Woofers, Move To The Drop Of The Bass, Gyrate To The Beat And Dance With Sass. Concoct That Perfect Brew Of Talent, Precision And Synchronization As The Curtain Raises Yet Again To Unveil The Ultimate Clash Between The Paragons Of Dance.
+
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay19" onclick="off19()">
+        <div id="text19">
+          <p class="anime19">
+            Event 9: Choreo Night (Theme)<br><br>
+            Venue: - Auditorium Stage<br><br>
+            Team Members: - 8-30 in Each Team.<br><br>
+            Time Limit: - 8 Mins + 2mins (Stage Setup)<br><br>
+            <!-- Prize: - <br>
+              1st Prize –INR 15000<br>
+              2nd Prize – INR 7500 -->
+            Rules: -<br>
+              1) The Competition Music Must Not Contain Inappropriate, Lewd or offensive Language. <br>
+              2) Any Style Can Be Incorporated.<br>
+              3) No Vulgarity Would Be Tolerated.<br>
+              4) Prop Usage is allowed, but it shouldn’t damage the Stage Example: Fire, Sharp Objects etc.<br><br>
+
+            Judging Criteria: - Style, Story, Choreography, Presentation, Coordination, Stage Usage.<br><br>
+            Description: -<br>
+              Portray Your Theme Via Dance, Listen To The Thump Of The Woofers, Move To The Drop Of The Bass, Gyrate To The Beat And Dance With Your Feelings To Express. Concoct That Perfect Brew Of Talent, Precision And Synchronization As The Curtain Raises Yet Again To Unveil The Ultimate Clash Between The Paragons Of Dance.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay21" onclick="off21()">
+        <div id="text21">
+          <p class="anime21">
+            Event : Ramp Walk <br><br>
+            Theme : Cultural Voyage<br><br>
+            Venue – Auditorium Ground <br><br>
+            Time Slot – 5:00 pm to 9:00 pm<br><br>
+
+            Rules and Regulations :- <br>
+            1. Each team can have a maximum of 15 participants (excluding the helpers).<br>
+            2. Each team is allotted 15 minutes from the time they enter till they leave the stage (team would be given negative marks if they exceed the time limit).<br>
+            3. Each member of the team should strictly follow the theme.<br>
+            4. Use of accessories encouraged unless they could damage the stage.<br>
+            5. No form of vulgarity would be tolerated.<br>
+            6. Music tracks should be submitted 2 hours prior to the show.<br>
+            7. Possession of college ID card is a must by every member of the team.<br>
+            8. The colleges must report 2 hours prior to the show for slot picking.<br>
+            9. Sound tracks should be submitted at the time of slot picking.<br>
+            10.Green room available behind the stage.<br>
+            11. Ramp provided.<br><br>
+            Judging Criteria – walk, attitude, co-ordination, sequence, costume.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay22" onclick="off22()">
+        <div id="text22">
+          <p class="anime22">
+            Event : Designer Round <br><br>
+            Theme : Eco-Friendly<br><br>
+            Venue – Auditorium Ground <br><br>
+            Time Slot – 5:00 pm to 9:00 pm<br><br>
+            Rules and Regulations:- <br>
+              1. Each team can have a maximum of 3 participants.<br>
+              2. Each team will be allotted maximum of 4 minutes to showcase their costume (including the speaker if necessary).<br>
+              3. The costume should be creative and eco-friendly.<br>
+              4. No form of vulgarity would be tolerated.<br>
+              5. Every member of the team should possess the college ID card at the time of registration before every event.<br>
+              6. The colleges must report 2 hours prior to the show for slot picking.<br>
+              7. Sound tracks should be submitted at the time of slot picking.<br>
+              8. Green room available behind the stage.<br>
+              9. Ramp provided.<br>
+            Judging Criteria- the participant would be judged only on the costume and creativity.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay23" onclick="off23()">
+        <div id="text23">
+          <p class="anime23">
+            Event : Mr. and Ms. MILAN <br><br>
+            ROUND 1 :-<br>
+              Participants have to ramp walk on the stage for 30 seconds to show their personality and stage presence.<br><br>
+            ROUND 2 :-<br>
+              Participants would have to model for a product for 30 seconds. They can give as many poses as they want in that duration.<br>
+              The product for which they would be modeling would be decided by picking chits, just before they enter the stage.<br>
+              They would be judged on the ability to pose with the product and their presence of mind.<br><br>
+            ROUND 3 :-<br>
+              This is a talent round where the participants have to showcase their talent on the stage for 1 min.<br>
+              This will be followed by interactive questioning round where the participant will have to answer the question asked by the judges.<br>     
+              Decision of the judges would be final .<br><br>
+              Important:-<br>
+                1. Every member of the team should possess the college ID card at the time of registration before every event. <br>
+                2. The colleges must report 2 hours prior to the show for slot picking.<br>
+                3. Sound tracks should be submitted at the time of slot picking.<br>
+                4. Green room available behind the stage.<br>
+                5. Ramp provided.
+            </p>
+        </div>
+      </div>
+
+
+      <div id="overlay31" onclick="off31()">
+        <div id="text31">
+          <p class="anime31">
+            Event : ROAD PAINTING <br><br>
+            Event Description:- <br>
+​             Wake up, Da Vinci and Picassos! Time to hold your paintbrushes tight and bring the creative geniuses in you out with this one-of-a-kind event of two rounds.<br><br>
+​
+            Rounds 1<br>
+              The participants should paint their fantasies on chart papers provided, although pencils, erasers and sharpeners would also be given to them on the spot. The participants selected would pace forth to Round 2. Use of mobile phones prohibited.<br><br>
+
+            Round 2 <br>
+              Real time painting on the road, on the given theme (Vintage). Basic colors and dusters would be provided, although they have to bring brushes and other required materials if need be, on their own.<br><br>
+​
+            Time:  5 hours<br>
+
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay32" onclick="off32()">
+        <div id="text32">
+          <p class="anime32">
+          Event : Collage Making <br><br>
+          Event Description:- <br>
+​           Mix, match, create and congregate them patches into a beautiful collage on the given theme, in this brand new event.<br><br>
+          Rules and Regulations:- <br>
+​           All the participants will be provided with newspapers, pencils, charts and glue, although rulers, scissors and cutters will not be provided. Use of Mobile phones prohibited.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay33" onclick="off33()">
+        <div id="text33">
+          <p class="anime33">
+            Event : Face Painting <br><br>
+            Event Description:-<br>
+              It’s a single round event<br>
+              All the participants will be provided with brush, colours (basic)<br>
+              Mobiles will not be allowed to use.<br>
+              Number of participants per team: 2 (one should paint on the other participant)<br>
+              Participants can get their own materials on their wish .<br><br>
+            Time duration : 1.5 hours
+          </p>
+        </div>
+      </div>     
+
+      <div id="overlay34" onclick="off34()">
+        <div id="text34">
+          <p class="anime34">
+            Event : Mehendi <br><br>
+            Event Description:- <br>
+​               Could there be anything more beautiful than Mehendi adorned hands? <br>
+Giving this Milan a desi tadka, we have Mehendi Designing, an event for two participants, wherein one gets to beautify the hands of the other.
+All the participants will be provided with Mehendi cones. Use of mobile phones and plagiarism are prohibited.<br><br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay35" onclick="off35()">
+        <div id="text35">
+          <p class="anime35">
+            Event : Nail Art <br><br>
+            Event Description:-<br>
+​​             Nail polish speaks louder than words, they say. Can you relate? Here’s your forte. A nail-art event for two, where one participant paints the nails of the other.​<br><br>
+​​            Rules and Regulations:​​-<br>
+              1. All  the participants will be provided with colors and brushes. Although they can also bring their own materials, if need be.<br>
+              2. Use of mobile phones and plagiarism are prohibited.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay36" onclick="off36()">
+        <div id="text36">
+          <p class="anime36">
+            Event : MASK   MAKING <br><br>
+            Event Description:- <br>
+​​            We all wear pseudo masks to hide the person we pretend to be. Why don’t we make that all the more beautiful? <br>    Come , design your alter ego with this Mask Making event, on the given theme- Vintage.<br><br>
+​
+​​            Rules and Regulations:​​- <br>
+              1. All the participants will be provided with chart, glue and basic stationery, although they are allowed to bring materials of their own too, if need be.<br>
+              2. Use of Mobile phones prohibited.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay37" onclick="off37()">
+        <div id="text37">
+          <p class="anime37">
+            Event : POT PAINTING<br><br>
+            Event Description:-<br>
+              Paint them earthen pots; hone the artist in you, this Milan!​<br><br>
+            Rounds 1 :-<br>
+              The participants should paint their designs on chart papers provided, although pencils, erasers and sharpeners would also be given to them on the spot. The participants selected would pace forth to Round 2. <br>
+              Use of mobile phones prohibited.<br><br>
+            Round 2 :-<br>
+              Real time painting on earthen pots. Basic colors and brushes would be provided, although they can other required materials if need be, on their own.<br>
+
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay38" onclick="off38()">
+        <div id="text38">
+          <p class="anime38">
+            Event : HAND PAINTING <br><br>
+            Event Description :-<br>
+              Damn those brushes. Put your biggest assets to use, with Hand Painting, giving your creation a beautiful texture, with this brand new event .<br><br>
+​
+            Rules and Regulations:​​- <br>
+              All the participants will be provided with basic colors and brushes. Although they can also bring their own materials, if need be.<br>
+              Use of mobile phones and plagiarism are prohibited.<br>
+
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay39" onclick="off39()">
+        <div id="text39">
+         <p class="anime39"> 
+          Event : T SHIRT PAINTING <br><br>
+          Event Description :-<br>
+            It’s a single round event.<br>
+            All the participants will be provided with brush, colors (basic).<br>
+            Mobiles will not be allowed to you.<br>
+            Participants can get their own materials on their wish .<br><br>
+          Time duration: 1.5 hours.
+          </p>
+        </div>
+      </div>
+
+
+      <div id="overlay391" onclick="off391()">
+        <div id="text391">
+          <p class="anime391">
+            Event : PORTRAIT MAKING<br><br>
+            Event Description :-<br>
+              It’s a single round event.<br>
+              All the participants will be provided with brush, colors (basic), etc.<br>
+              Mobiles will not be allowed to you.<br>
+              Participants can get their own materials on their wish.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay392" onclick="off392()">
+        <div id="text392">
+          <p class="anime392">
+            Event : CLAY MOLUDING<br><br>
+            Event Description:- <br>
+              It’s a single round event.<br>
+              Theme will be given on spot.<br> 
+              Materials will be provided.<br>
+              Participants can get their own materials on their wish.<br>
+          </p>
+        </div>
+      </div>
+
+
+      <div id="overlay41" onclick="off41()">
+        <div id="text41">
+          <p class="anime41">
+            Event : Essay Writing<br><br>
+            Event Coordinator - NISHANT-IT (3rd year)<br><br>
+            Description:-<br>
+              The participants have to write an essay of not more than 2000 words on one of the topics given to them in two hours.<br><br>
+            Individual event.<br><br>
+            Languages: English, Hindi, Tamil, Telugu, Malayalam.<br><br>
+            1. Topics of Social concern and patriotism will be given to the participants on the spot.<br>
+            2. A winner and a runner up will be selected.<br><br>
+           <!--  Prize :<br>1st Prize –Rs 7000<br>2nd Prize –Rs 6000 -->
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay42" onclick="off42()">
+        <div id="text42">
+          <p class="anime42">
+            Event : Poetry:<br><br>
+              Event Coordinator : Rajan Singh (ECE 1st Year)<br><br>
+              Event of 2 rounds<br><br>
+              Round 1:<br>
+                The participants have to write a poem on the abstract topic given to them on the spot.<br>
+                10 Finalists Will Proceed To Round 2.<br><br>
+              Round 2:  Poetry Out Loud:<br>
+                A poetry slam event wherein the participants have to write a poem on the topic that would be given to them on the spot post a prep time of 15 minutes and recite the same in not more than 3 minutes. They will later be judged for their performance by the spectators along with the judges. <br><br>
+              Languages: English, Hindi, Tamil.<br><br>
+              Individual Event<br><br>
+              <!-- Prize:<br>1st Prize – Rs.7000<br>2nd Prize-Rs 6000 -->
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay43" onclick="off43()">
+        <div id="text43">
+          <p class="anime43">
+            Event : Just A Minute (Jam)<br><br>
+            Event coordinator – Priyamvada(genetic engineering) 3rd year<br><br>
+            Description:-<br>
+              Just-A-Minute (or JAM) is a fun event that is all about the control of the mind over the mouth. Making one go through sixty seconds of non-stop talking without hesitation, repetition, or deviation.<br><br>
+            Individual Event.<br><br>
+            Round 1 - Regular Jam. <br>      
+            Round 2- (8 Finalists).<br><br>
+            Rules will be advised on the spot.<br><br>          
+            Moderators’ decision is final.<br><br>
+            <!-- Prize:<br>1st Prize -INR 7500<br>2nd Prize -INR 6500 -->
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay44" onclick="off44()">
+        <div id="text44">
+          <p class="anime44">
+            Event : Dumb Charades<br><br>
+            Event Coordinator – Varsha Suresh (genetic engineering 3rd year)<br><br>
+            Description: <br>
+            Involves in explaining the phrases or the name of a movie, a personality, a book or a TV show through acting. The person is not allowed to talk in between and should express through facial expression.<br><br>
+            Rules and regulation:-<br>
+              1. A theme will be chosen.<br>
+              2. Divided in 2 teams as TEAM A and B.<br><br>
+           <!--  1st  Prize -INR 9000<br>
+            2nd  Prize-INR 8000 -->
+            
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay45" onclick="off45()">
+        <div id="text45">
+          <p class="anime45">
+            Event : Shipwreck <br><br>
+            Event Coordinator: - HARI (Mechanical 3rd year)<br><br>
+            Description:-<br>
+              The participants will have to step into the shoes of a luminary and take the show in their hands. Defend themselves in front of a panel of adjudicators and show them how they can deal with the given situation better than anyone else.<br><br>
+            Individual event.<br><br>
+            Rules and Regulations:-<br>
+              1.  Time of 2 minutes will be given to each participant to ponder and gather his thoughts and make a sound defense.<br>
+              2.  The situation and the list of controversial personalities will be given to the contestants 2 days prior to the competition. However, the participant would be assigned any one of those personalities on the spot.<br>
+              3.  There would be a question/ rebuttal round by the judges, as well as by the audience.<br>
+              4.  The decision of the Organizers and Judges will be final and binding.<br><br>
+
+            <!-- 1st Prize- INR 6000<br>
+            2nd Prize -INR 5000 -->
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay46" onclick="off46()">
+        <div id="text46">
+          <p class="anime46">
+            Event :  Journalism Event:<br><br>
+            Event Coordinator: - <br>Tendral Rajagopal (JMC BA 3rd year)<br>Suchitra Sudeesh(JMC BA 3rd year )<br><br>
+            Event of two rounds:-<br>
+            Round 1:<br>
+              An article should be presented by the participant on any pressing issue. <br>
+            Round 2:<br>
+            Mock reporter :<br>
+            Professional news presentation on current affairs.<br><br>
+            Individual Event<br><br>
+            10 finalists will make it to round 2.<br><br>
+            <!-- 1st Prize – Rs 5000<br>
+            2nd prize –Rs.4000<br> -->
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay47" onclick="off47()">
+        <div id="text47">
+          <p class="anime47">
+            Event : Scrabble <br><br>
+            Event Coordinator - Aravind (CSE 3rd year)<br><br>
+            Description : -<br>
+              Scrabble is a word game in which two to four players score points by placing tiles bearing a single letter onto a board divided into a 15×15 grid of squares. The tiles must form words which, in crossword fashion, read left to right in rows or downwards in columns, and be defined in a standard dictionary. Players alternate taking turns. On each turn, a player may place tiles on the board, exchange tiles, or pass At the end of a player’s turn, the player should start his/her opponent’s timer, record the cumulative score, and if possible draw enough tiles to bring the player’s total back to seven tiles. The winner is the player who has scored the most points at the end of the game.<br><br>
+            Individual Event.<br><br>
+            Individual participants.<br><br>
+            The event will be conducted in a classic knockout format.<br><br>
+            Each game in the preliminary round will last for 25min.<br><br>
+            The finals shall be a best of 3 games, each lasting 25min.<br><br>
+            Collins scrabble words dictionary 2015 shall be used for word references.<br><br>           
+            <!-- 1st Prize –Rs6000<br>
+            2nd Prize –Rs 5000 -->
+          </p>    
+        </div>
+      </div>
+
+      <div id="overlay48" onclick="off48()">
+        <div id="text48">
+          <p class="anime48">
+            Event : Comic Script<br><br>
+            Event Coordinator:-<br>1.Tavishi (IT 2nd Year)<br>2.Bhavya (IT 2nd Year)<br><br>
+            Description-<br>
+              A comic script is a sequence of drawings arranged in interrelated panels to display brief humor or form a narrative, often serialized, with text in balloons and captions and evaluated on the basis of story outline, presentation, language and creativity.<br><br>
+            Rules:<br>
+              1. The topic or a situation will be given to the participant on the spot.<br>
+              2. The participant will have to present that in the form of a comic in the given time limit.<br><br>
+            <!-- 1st Prize – Rs 5000.<br>
+            2nd Prize - Rs 4000. -->
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay49" onclick="off49()">
+        <div id="text49">
+          <p class="anime49">
+              Event : Mad Ads<br><br>
+              Description:- <br>
+                Mad ads come with a wacky twist where students convincing capabilities are put to test with rather and unrealistic, nonexistent products that help hone both the creative genius and the weirdo in one.<br><br>
+              Round 1-<br>
+                The participants can choose the product to be marketed on their own, and present the same. The team that takes minimal time to showcase their convincing capabilities will have an edge above the rest with regard to marking. Team will be filtered and the top ten highest scoring participant groups would proceed to round 2.<br><br>
+              Round 2- <br>
+                The products be marketed would be given to the teams on the spot, with an additional minute for preparation and presentation, and those that carve a niche for themselves grab the first and second positions.<br><br>
+              Rules<br>
+                1. A maximum of 6 participants will be allowed to take part in the event of 2 rounds.<br>
+                2. The time duration allocated for preparation and performance will be 3-4 min respectively.<br>
+                3. Participants are allowed to bring minimal creative props of their own that would help with the marketing.<br>
+                4. Spontaneity, humor and creativity will be appreciated.<br>
+                5. Decision of the organizing committee is final.<br><br>
+
+              <!-- 1st Prize- Rs 5000.<br>
+              2nd Prize – Rs 4000. -->
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay491" onclick="off491()">
+        <div id="text491">
+          <p class="anime491">
+            Event : Open Mic <br><br>
+            Event coordinator: - TEJAS (ECE 2ND YEAR)<br><br>
+            Description: <br>
+            Each participant will have a total time limit of 4min which can be used to perform different forms of arts such as :- <br>
+                • Story telling<br>
+                • Speaking( in the most general sense)<br>
+                • Poetry<br>
+                • Singing<br>
+                • Monologue<br>
+                • Standup comedy<br><br>
+            Rules- <br>
+              Vulgarity of any kind is not looked upon favourably.<br><br>
+            <!-- 1st Prize –Rs 5000<br>
+            2nd Prize – Rs 4000 -->
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay492" onclick="off492()">
+        <div id="text492">
+          <p class="anime492">
+            Event : Inquisition
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay51" onclick="off51()">
+        <div id="text51">
+          <p class="anime51">
+            Event :  Street Play <br><br>
+            Event Coordinator: Saurabh Sarkar (8839052700)<br><br>
+            Description: <br>
+              Get ready with your dhol and tell your message to the whole crowd.<br><br>
+                          "aao aao natak dikhao"<br><br>
+              Nukkad Nataks (street plays) are supposedly the oldest forms of theatre and also a strong medium for mass communication; a means to spread awareness about social issues to live audiences and gather their instant reactions.<br><br>
+            Rules And Regulations :-<br>
+              1. Maximum number of teams per University/College- 2.<br>
+              2. Maximum number of participants per team- 20.<br>
+              3. The time limit is 25 minutes including setup time.<br>
+              4. Uniform Dressing has to be maintained throughout the act.<br>
+              5. The use of Props and makeup is allowed.<br>
+              6. The use of pre-recorded music is prohibited.<br>
+              7. The use of harmful materials such as fire etc. is prohibited.<br>
+              8. The use of foul language and offensive words is prohibited.<br>
+              9. The act can be in English, Tamil or Hindi or a mix of the three.<br>
+              10.The teams have to adhere to the time limit and rules or else there will be negative marking.<br>
+              11.The decision of the judges will be final and no appeals will be entertained.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay52" onclick="off52()">
+        <div id="text52">
+          <p class="anime52">
+            Event : Histrionique: The Stage Play <br><br>
+            Event Coordinator : Sidharth Tyagi-(9663913180) <br><br>
+            Description: <br>
+              Taking on characters that are complex and deliver tough lines is nothing but a piece of cake for the typical theatre artist. And here’s the opportunity for your team to come up with a captivating performance, in one of the biggest events ever! The rules are simple. <br><br>
+
+            Rules And Regulations :-<br>
+              1. Duration: 30-50 minutes ( 3 minutes for stage set up) <br>
+              2. Maximum members per team: 7 (participants) 2 (production team)<br> 
+              3. One team per college. <br>
+              4. One play. <br>
+              5. One winner. <br>
+              6. Scripts should not have any form of vulgarity <br>
+              7. Should not exceed specified time limit (which also includes time specified for stage set up).<br>
+              8. Only one team can represent their college for this event. <br>
+              9. Props offered: 2 tables and 5 chairs. <br>
+              10.Any other arrangements required must be intimated as soon as registration is completed, and at least 1 week before the event. <br><br>
+            Sail your talent ships into the waters of tough competition because this Milan is going to take all of you through an eventful journey of theatrics. <br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay53" onclick="off53()">
+        <div id="text53">
+          <p class="anime53">
+            Event : Can you Act?<br><br>
+            Event Coordinator : Diksha Jaiswal<br><br>
+            Description:<br>
+              Are emotions your best friend? Is spinning tales out of thin air your favorite hobby? You have seven minutes with you. From our array of choices, you pick a gender, an emotion, a prop and a storyline, and you make your story and act it out.<br><br> 
+
+            Rules And Regulations :- <br>
+              1. Preparation time after picking the lots: 3minutes and should not be exceeded. <br>
+              2. It’s an individual performance and you cannot involve another person in your story by asking them to share the stage with you. <br>
+              3. You cannot exceed performance time of 4 minutes. <br>
+              4. No vulgarity will be accepted. <br>
+              5. A second choice in picking chits will not be allowed. <br>
+              6. Should not exceed time limit.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay54" onclick="off54()">
+        <div id="text54">         
+          <p class="anime54">           
+            Event : Switch it,Win it! <br><br>
+            Event Coordinator : Garvit Joshi <br> <br>
+            Description:<br>
+              A two round event which will test the versatility of one. It will test the ability of the artist to switch his characters quickly to some contrasting character within an act in First round and in second round how compatible one is with his/her fellow actor.<br><br>
+              A thrilling event with lots of character switching and acting skills.<br><br>
+              So SWITCH IT,WIN IT!!<br><br>
+            Round-1<br>
+              Two people will be given a situation with two contrasting character which they have to act for 2 min.After 1 min of performances there will be a buzzer and they have to "Switch" their characters and continue their act. Mostly the two characters will be contrasting to each other.
+              The better one goes on to the next round.<br><br>
+            Round-2<br>
+              Two people will be given a situation they will be given time for preparation. One of them has to act and other has to say the dialogue. The person who is saying the dialogues will be blindfolded and wont be able to see the one who is acting it out.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay55"onclick="off55()">
+        <div id="text55">
+          <p class="anime55">
+            Event : Spotlight (Mono-Acting)<br><br>
+            Event coordinator : Vaibhav Joshi <br><br>
+            If you have the charm and charisma to keep the eyes of the audience all to yourself, then this event is made just for you.<br><br>
+            Description: <br>
+              Round 1: <br>
+                In this round, participants will be expected to prepare a performance for 4 - 7 minutes on a topic of their choice.<br><br>
+              Round 2: <br>
+                The topic/premise will be provided on the spot and one will be allowed to perform for a maximum time of 7 minutes.<br>
+                The participant will be given the topic, before the performance of the preceding participant.<br><br>
+
+              Rules And Regulations :-<br>
+                1. No profanity or vulgarity should be there in the performance.<br>
+                2. Multiple entries form a college are allowed.<br>
+                3. One can perform in Hindi, English or Tamil.<br>
+                4. The decision of the judges will be final and binding.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay56" onclick="off56()">
+        <div id="text56">
+          <p class="anime56">
+            Event : Movies' Baazigar! <br><br>
+            Event Coordinator : Harshit <br><br>
+            Description: <br>
+              Movies have been an important part of our culture. So why not an event fully dedicated to our movies and test your skills.<br>
+              An event which will test you on the basis of your acting skills as well as with the movies knowledge.<br>
+              And don’t worry we have all of them Bollywood ,hollywood and tollywood.<br><br>
+            Round - 1<br>
+              The game will have a team of 2 people. <br>
+              One person has to draw a chit in which the name of an actor and actress will be written. This person has to think of any movie having that pair of actors.  The other person has to guess the name of the movie in 10 sec. To guess the movie a person can act any song or scene from that movie.<br><br>
+            Round-2 <br>
+              A still scene from the movie will be shown and the team has to complete the rest of the part of that scene by enacting. It can be either similar to the movie or with some improvisation by making it funny in their own way.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay57" onclick="off57()">
+        <div id="text57">
+          <p class="anime57">
+            Event : Standup Comedy <br><br>
+            Event Coordinator: Gurumoorthy Ratnam<br><br>
+            Description:<br>
+              If you have what it takes to tickle the humours (the funny bone, duh!), then the stage is yours (for the time of your performance). <br><br>
+            Round 1:<br>
+              The comedians will present a prepared set.<br>
+              The time limit for the set is 3-5 minutes.<br><br>
+
+            Round 2: <br>
+              Improvised comedy with the prop provided on the spot.<br>
+              The time limit for the set is 3-4 minutes.<br><br>
+            Rules and Regulations :-<br>
+              1. Multiple entries from a college are allowed.<br>
+              2. One can perform in Hindi, English or Tamil.<br>
+              3. The decision of the judges will be final and binding.<br>
+              4. Vulgarity and profanity will result in immediate disqualification.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay58" onclick="off58()">
+        <div id="text58">
+          <p class="anime58">
+            Event :  Mime <br><br>
+            Event Coordinator : Anvesha <br><br>
+            Description: <br>
+              How good are you at acting with no words? Find out at this mime event. <br>
+              A topic will be given to the participant and they will have to Mime it out, and deliver the message home in two minutes. Situations will be picked out on a lots basis, and the contestant will have access to some basic props. <br>
+              Participants get two minutes to prepare. <br><br>
+            Rules And Regulations :-<br>
+              1. Should not exceed time limit. <br>
+              2. Should not mouth words or bring any form of verbal hint.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay59" onclick="off59()">
+        <div id="text59">
+          <p class="anime59">
+            Event :  Lights camera action! (Short Film Contest) <br><br>
+            One of the biggest short film competition in SRM UNIVERSITY.  It is open to all students and for winners.<br><br>
+            Event Coordinator : Sarika Roy<br><br>
+            Event Rules:<br>
+              1. A copy of college ID of the participants should be sent to us when posting your film. <br>
+              2.The short films should be compatible in VLC player.<br>
+              3.All short films in languages other than English should have sub-titles.<br>
+              4.The short film should not exceed 10 -12 mins.<br>
+              5.2 copies of the film should be sent on or before .<br>
+              6.The theme will be given 50 hours before the event on ..... <br>
+              7.Any short film showcasing vulgarity will be rejected.<br>
+              8.At the time of screening, all members from the team should be compulsorily present.<br>
+              9.There is no limit to the number of members per team.<br>
+              10.Multiple entries are not allowed. <br>
+              11.The judges decision will be final and biding.<br>
+              12. There will be only 1 round.<br>
+
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay591" onclick="off591()">
+        <div id="text591">
+          <p class="anime591">
+            Event : MeloDrama (Melody+Drama)<br><br>
+            Event Coordinator : Mariyah<br><br>
+            Event Description-:<br>
+              A team will be given lyrics of a song. You will be given 5 minutes of preparation time after that you have to enact the song by using its lyrics. You can either sing or use it as dialogues. You will be judged on the basis of your creativity and acting skills.<br><br>
+            Rules and Regulations :-<br>
+              1. Any number of teams per University/College.<br>
+              2. Maximum number of participants per team- 3.<br>
+              3. The time limit is 4-5 minutes. <br>
+              4. The teams have to adhere to the time limit and rules or else there will be negative            marking.<br>
+             5. The decision of the judges will be final and no appeals will be entertained.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay592" onclick="off592()">
+        <div id="text592">
+          <p class="anime592">
+            Event :  Dubsmash
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay593" onclick="off593()">
+        <div id="text593">
+          <p class="anime593">
+            Event : Script Writing
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay61" onclick="off61()">
+        <div id="text61">
+          <p class="anime61">
+            Event : Vibrato(Western Solo) <br><br>
+            Event Description :- <br>
+              Wonder how to unleash the Stevie Wonder in you? Who knows?! You could possibly have Taylor Swift’s timbre. Well, here’s your forte.<br><br>
+            Rules and Regulations :-<br>
+            1. All performances must be in English. Usage of any other languages can lead to disqualification.<br>
+            2. Time limit for each performance (including set up) is 3 mins.<br>
+            3. Each participant MUST have a college id for verification during Milan Id registration.<br>
+            4. A single accompanist or a karaoke (backing track without vocals) will be allowed.<br>
+            5. The decision of the judges will be final. <br><br>
+            Date : 7th  March 2018, Wednesday<br><br>
+            Time : 11 a.m. – 1 p.m.<br><br>
+            Venue : M.B.A Seminar Hall .<br><br>
+            Registration Procedure : Common Registration.
+            
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay62" onclick="off62()">
+        <div id="text62">
+          <p class="anime62">
+            Event : Alankar (Eastern Solo)<br><br>
+            Event Description :-<br>
+              One for the Desi lovers, this. Exactly locating the mid-grounds between core art forms, as the name happens to be self-explanatory; ‘Light’ music. You could sing what your heart says and still sound enigmatic!<br><br>
+            Rules and Regulations:-<br> 
+              1. All performances must be in Indian languages (Hindi/Tamil/Telugu/Kannada/others) only.<br>
+              2. Time limit for each performance (including set up) is 3 mins.<br>
+              3. Each participant MUST have a college ID for verification during Milan ID registration.<br>
+              4. A backing track (karaoke) or an accompanist will be allowed.<br>
+              5. The decision of the judges will be final.<br><br>
+            Date : 7th  March 2018, Wednesday<br><br>
+            Time : 11 a.m. – 1 p.m.<br><br>
+            Venue : Mini Hall 1<br><br>
+            Registration Procedure : Common Registration.<br>
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay63" onclick="off63()">
+        <div id="text63">
+          <p class="anime63">
+            Event : Gamak (Classical And Regional Solo)<br><br>
+            Description :-<br>
+              The beauty of classical music lies in reading between the lines of the notation. It is that art form that maps to something beyond the track of human intellect. Come, participate and experience sheer bliss with this very event.<br><br>
+            Rules and Regulations :-<br>
+              1. All performances should be strictly be either in any of the two classical styles : Hindustani or Carnatic.<br>
+              2. For Regional solo any Indian language is allowed.<br>
+              3. Time limit for each performance (including set up) is 3 mins.<br>
+              4. Each participant MUST have a college id for verification during Milan Id registration.<br>
+              5. One can use Shruti box. However, no Shruti box will be provided at the venue.<br>
+              6. The decision of the judges will be final.<br><br>
+            Date : 7th  March 2018, Wednesday<br><br>
+            Time : 2 p.m. – 4 p.m<br><br>
+            Venue : Mini Hall 1<br><br>
+            Registration Procedure : Common Registration
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay64" onclick="off64()">
+        <div id="text64">
+          <p class="anime64">
+            Event : Matra(Instrumental Solo) <br><br>
+            Event Description:<br>
+              Years of blood and sweat! Showcase your skills this is the best chance you’ll get!!<br><br>
+            Rules and Regulations:-<br>
+            1. Time limit: 5 mins.<br>
+            2.No accompanist or backing track is allowed.<br>
+            3.No instrument will be provided by the college.<br>
+            4.All participants must carry their college ids for Milan id registration.<br>
+            5.The decisions of the judges will be final. <br><br>
+            Date: 8th  March 2018, Thursday.<br><br>
+            Time: 11 a.m. – 1 p.m.<br><br>
+            Venue : M.B.A seminar hall.<br><br>
+            Registration Procedure: Common Registration.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay65" onclick="off65()">
+        <div id="text65">
+          <p class="anime65">
+            Event : Aaroh Avroh(Eastern Duet)<br><br>
+            Event Description :-<br>
+              The synergy between two vocal chords. Just two. No more; no less.<br><br>
+            Rules and Regulations :-<br>
+              1. Time limit: 3 mins.<br>
+              2. A single accompanist or backing track is allowed.<br>
+              3. Duet could be between any 2 eastern vocalists.<br>
+              4. Any Indian language is allowed.<br>
+              5. All participants must carry their college ids for Milan id registration.<br>
+              6. The decisions of the judges will be final. <br><br>
+            Date: 9th March 2018, Friday<br><br>
+            Time: 11 a.m. – 1 p.m.<br><br>
+            Venue : M.B.A Seminar Hall <br><br>
+            Registration Procedure: Common Registration
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay66" onclick="off66()">
+        <div id="text66">
+          <p class="anime66">
+            Event : Harmonisea(Western Duet)<br><br>
+            Event Description :-<br>
+              The synergy between two vocal chords. Just two. No more; no less. In English of course.<br><br>
+            Rules and Regulations :-<br>
+              1. Time limit: 3 mins.<br>
+              2. A single accompanist or backing track is allowed.<br>
+              3. Duet could be between any 2 western vocalists.<br>
+              4. All participants must carry their college ids for Milan id registration.<br>
+              5. The decisions of the judges will be final. <br><br>
+            Date: 9th  March 2018, Friday.<br><br>
+            Time: 2 p.m. – 5 p.m.<br><br>
+            Venue : M.B.A Seminar Hall <br><br>
+            Registration Procedure: Common Registration
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay67" onclick="off67()">
+        <div id="text67">
+          <p class="anime67">
+            Event : Fuzon(Eastern And Western Fusion)<br><br>
+            Event Description:<br>
+              The fusion between two vocal chords. No more; no less. Only difference being that each has to sing in a different language. (could be any 2 different languages).<br><br>
+            Rules and Regulations :-<br>
+              1. Time limit: 5 mins.<br>
+              2. A single accompanist or backing track is allowed.<br>
+              3. Duet could be between any 2 eastern/western vocalists or 1 eastern and 1 western vocalist.<br>
+              4. All participants must carry their college ids for Milan id registration.<br>
+              5. The decisions of the judges will be final.<br><br>
+ 
+            Date: 9th  March 2018, Friday<br><br>
+            Time: 2 p.m. – 5 p.m.<br><br>
+            Venue : Mini Hall 1 <br><br>
+            Registration Procedure: Common Registration
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay68" onclick="off68()">
+        <div id="text68">
+          <p class="anime68">
+            Event : Resonance(Bob Western)<br><br>
+            Description:-<br>
+              While it seems like a battle among various bands, it is a war among the notes, rage of the rhythm and a clash of the octaves! Every single band is a beautiful battle per se, ain’t it?<br><br>
+            Rules and Regulations:-<br> 
+              1. This is a Western Band competition for college bands only.<br>
+              2. Use of any language apart from English will lead to disqualification.<br>
+              3. Every participant MUST carry a valid college id for Milan id registration.<br>
+              4. Backing tracks are not permitted.<br>
+              5. Original compositions will be given more weightage. However, the final decision regarding the same will be taken by the judges.<br>
+              6. Time limit including set up:  15 mins. <br><br>
+            Date: 9th  March 2018, Friday<br><br>
+            Time: 9 a.m. – 1 p.m.<br><br>
+            Venue : Main Audi<br><br>
+            Registration Procedure: Common Registration.
+
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay69" onclick="off69()">
+        <div id="text69">
+          <p class="anime69">
+            Event : Tarang(Bob Eastern)<br><br>
+            Event Description :-<br>
+              While it seems like a battle among various bands, it is a war among the notes, rage of the rhythm and a clash of the octaves! Every single band is a beautiful battle per se, ain’t it?<br><br>
+            Rules and Regulations :-<br><br>
+              1. This is an Eastern Band competition for college bands only.<br>
+              2. Performances should be in any of the Indian languages.<br>
+              3. Every band member MUST carry their college id for Milan ID registration.<br>
+              4. Backing tracks are not permitted.<br>
+              5. Participants are requested to get their own instruments. A standard drum kit, amplifiers and microphones will be provided at the venue.<br>
+              6. Original compositions will be given more weight age than cover songs. However, the final decision regarding the same will be taken by the judges.<br>
+              7. Time limit including the set up:  15 mins.<br>
+              8. The decision of the judges will be final.<br><br>
+
+            Date: 9th  March 2018, Friday<br><br>
+            Time: 1 p.m. – 5 p.m.<br><br>
+            Venue : Main Audi<br><br>
+            Registration Procedure: Common Registration.
+
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay691" onclick="off691()">
+        <div id="text691">
+          <p class="anime691">
+            Event : Beatdrop (Beatbox/Rapper)<br><br>
+            Event Description :-<br>
+              Each battle should consist of 2 rounds each with every participant getting 1 min per round to do his or her beat.<br><br>
+            Rules and Regulations:- <br>
+              1. No instruments are permitted.<br>
+              2. A maximum of 3 min is allowed.<br>
+              3. One accompanist is allowed.<br>
+              4. No recorded tracks.<br>
+              5. Do not bite (copy) someone else’s work. New/fresh stuff is more than welcome.<br>
+              6. Competitors should not perform beat box routines as already performed in public by other beat boxers, to the best of their knowledge. Intellectual property rights must be respected.<br>
+              7. Judges decision is final. In terms of a tiebreaker, an additional round will be given for the competitors.<br><br>
+
+            Date: 10th  March 2018, Saturday<br><br>
+            Time: 10 a.m – 12 p.m<br><br>
+            Venue: Mini hall 1<br><br>
+            Registration Procedure: Common Registration
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay692" onclick="off692()">
+        <div id="text56">
+          <p class="anime692">
+            Event : Mixmasters(Dj Battle)<br><br>
+            Event Description :-<br>
+              Each battle should consist of 2 rounds each with every participant getting 1 min per round to do his or her beat.<br><br>
+            Rules and Regulations :-<br>
+              1. No instruments are permitted.<br>
+              2. Do not bite (copy) someone else’s work. New/fresh stuff is more than welcome.<br>
+              3. Judges decision is final. In terms of a tiebreaker, an additional round will be given for the competitors.<br><br>
+            Date: 10th  March 2018, Saturday<br><br>
+            Time: 2 pm – 4 pm<br><br>
+            Venue: Mini hall 1<br><br>
+            Registration Procedure: Common Registration
+
+          </p>
+        </div>
+      </div>
+
+
+
+      <section class="navigation1" style="position:absolute;top:20px;left:75px">
+        <a class="main" href="#">  
+          <img style="width:250px;height:250px" src="./public/images/dance.gif" alt="Dance" class ="man"> 
+        </a> 
+          <li class="n11" style="border: 2px solid black"> <a href="#" onclick="on11()"> Western Freestyle (College level)</a></li>
+          <li class="n12" style="border: 2px solid black"> <a href="#" onclick="on12()"> Eastern Solo (College level) </a> </li>
+          <li class="n13" style="border: 2px solid black"> <a href="#" onclick="on13()"> Western Freestyle Solo (Proffesional Level) </a> </li>
+          <li class="n14" style="border: 2px solid black"> <a href="#" onclick="on14()"> Duet Freestyle(College Level) </a> </li>
+          <li class="n15" style="border: 2px solid black"> <a href="#" onclick="on15()"> Tripples Freestyle(College Level) </a> </li>
+          <li class="n16" style="border: 2px solid black"> <a href="#" onclick="on16()">  Solo Bollywood/Folk Battle (College Level) </a> </li>
+          <li class="n17" style="border: 2px solid black"> <a href="#" onclick="on17()">  Group Battle (College Level)
+          </a> </li>
+          <li class="n18" style="border: 2px solid black"> <a href="#" onclick="on18()">  Choreo Night (Non-Theme)
+          </a> </li>
+          <li class="n19" style="height:60px;border: 2px solid black"> <a href="#" onclick="on19()"> Choreo Night (Theme)
+          </a> </li>
+      </section>
+
+       <section class="navigation2" style="position:absolute;top:20px;left:380px">
+        <a class="main" href="#">  
+          <img class=="man" style="width:250px;height:250px" src="./public/images/fashion.gif" alt="Fashion" data-target="#myModal"> 
+        </a> 
+          <li class="n21" style="border: 2px solid black"> <a href="#" onclick="on21()"> Ramp Walk </a></li>
+          <li class="n22" style="border: 2px solid black"> <a href="#" onclick="on22()"> Designer Round </a> </li>
+          <li class="n23" style="height:60px;border: 2px solid black"> <a href="#" onclick="on23()"> Mr. and Ms. MILAN </a> </li>
+      </section>
+
+      <section class="navigation3" style="position:absolute;top:20px;left:680px">
+        <a class="main" href="#">  
+          <img class=="man" style="width:250px;height:250px" src="./public/images/creatives.gif" alt="Music" data-target="#myModal"> 
+        </a> 
+          <li class="n31" style="border: 2px solid black"> <a href="#" onclick="on31()"> Road Painting </a></li>
+          <li class="n32" style="border: 2px solid black"> <a href="#" onclick="on32()"> Collage Making </a> </li>
+          <li class="n33" style="border: 2px solid black"> <a href="#" onclick="on33()"> Face Painting  </a> </li>
+          <li class="n34" style="border: 2px solid black"> <a href="#" onclick="on34()"> Mehendi </a> </li>
+          <li class="n35" style="border: 2px solid black"> <a href="#" onclick="on35()"> NAIL ART
+</a> </li>
+          <li class="n36" style="border: 2px solid black"> <a href="#" onclick="on36()"> MASK MAKING </a> </li>
+          <li class="n37" style="border: 2px solid black"> <a href="#" onclick="on37()"> POT PAINTING </a> </li>
+          <li class="n38" style="border: 2px solid black"> <a href="#" onclick="on38()"> HAND PAINTING </a> </li>
+          <li class="n39" style="border: 2px solid black"> <a href="#" onclick="on39()"> T SHIRT PAINTING </a> </li>
+          <li class="n391" style="border: 2px solid black"> <a href="#" onclick="on391()"> PORTRAIT MAKING </a> </li>
+          <li class="n392" style="height: 60px; border: 2px solid black"> <a href="#" onclick="on392()"> CLAY MOULDING </a> </li>
+      </section>
+
+
+      <section class="navigation4" style="position:absolute;top:20px;left:970px">
+        <a class="main" href="#">  
+          <img class=="man" style="width:250px;height:250px" src="./public/images/literary.gif" alt="Literary" data-target="#myModal"> 
+        </a> 
+          <li class="n41" style="border: 2px solid black"> <a href="#" onclick="on41()"> Essay Writing </a></li>
+          <li class="n42" style="border: 2px solid black"> <a href="#" onclick="on42()"> Poetry </a> </li>
+          <li class="n43" style="border: 2px solid black"> <a href="#" onclick="on43()"> Just a Minute (Jam) </a> </li>
+          <li class="n44" style="border: 2px solid black"> <a href="#" onclick="on44()"> Dumb Charades </a> </li>
+          <li class="n45" style="border: 2px solid black"> <a href="#" onclick="on45()"> Shipwreck </a> </li>
+          <li class="n46" style="border: 2px solid black"> <a href="#" onclick="on46()"> Journalism Event </a> </li>
+          <li class="n47" style="border: 2px solid black"> <a href="#" onclick="on47()"> Scrabble </a> </li>
+          <li class="n48" style="border: 2px solid black"> <a href="#" onclick="on48()"> Comic Script </a> </li>
+          <li class="n49" style="border: 2px solid black"> <a href="#" onclick="on49()"> Mad Ads </a> </li>
+          <li class="n491" style="border: 2px solid black"> <a href="#" onclick="on491()"> Open Mic </a> </li>
+          <li class="n492" style="height:60px;border: 2px solid black"> <a href="#" onclick="on492()"> Inquisition </a> </li>
+      </section>
+
+
+      <section class="navigation5" style="position:absolute;top:20px;left:1250px">
+        <a class="main" href="#">  
+          <img class=="man" style="width:250px;height:250px" src="./public/images/drama.gif" alt="Dramatics">
+        </a> 
+          <li class="n51" style="border: 2px solid black;"> <a href="#" onclick="on51();"> Nukkad Natak </a></li>
+          <li class="n52" style="border: 2px solid black"> <a href="#" onclick="on52()"> Histrionique: The Stage Play </a> </li>
+          <li class="n53" style="border: 2px solid black"> <a href="#" onclick="on53()"> Can you Act? </a> </li>
+          <li class="n54" style="border: 2px solid black"> <a href="#" onclick="on54()"> Switch it,Win it! </a> </li>
+          <li class="n55" style="border: 2px solid black"> <a href="#" onclick="on55()"> Spotlight (Mono-Acting)
+ </a> </li>
+          <li class="n56" style="border: 2px solid black"> <a href="#" onclick="on56()"> Movies' Baazigar! </a> </li>
+          <li class="n57" style="border: 2px solid black"> <a href="#" onclick="on57()"> Standup Comedy  </a> </li>
+          <li class="n58" style="border: 2px solid black"> <a href="#" onclick="on58()"> Mime-Chaplain’s Apprentice </a> </li>
+          <li class="n59" style="border: 2px solid black"> <a href="#" onclick="on59()"> Lights camera action! (Short film contest) 
+   </a> </li>
+          <li class="n591" style="border: 2px solid black"> <a href="#" onclick="on591()"> MeloDrama (Melody+Drama)
+ </a> </li>
+          <li class="n592" style="border: 2px solid black"> <a href="#" onclick="on592()"> Dubsmash
+ </a> </li>
+          <li class="n593" style="height:60px;border: 2px solid black"> <a href="#" onclick="on593()"> Script Writing </a></li>
+      </section>
+
+      <section class="navigation6" style="position:absolute;top:20px;left:1550px">
+        <a class="main" href="#">  
+          <img class=="man" style="width:250px;height:250px" src="./public/images/music.gif" alt="Music" data-target="#myModal"> 
+        </a> 
+          <li class="n61" style="border: 2px solid black"> <a href="#" onclick="on61()"> Vibrato (Western Solo) </a></li>
+          <li class="n62" style="border: 2px solid black"> <a href="#" onclick="on62()"> Alankar (Eastern Solo) </a> </li>
+          <li class="n63" style="border: 2px solid black"> <a href="#" onclick="on63()"> Gamak (Classical And Regional Solo) </a> </li>
+          <li class="n64" style="border: 2px solid black"> <a href="#" onclick="on64()"> Matra (Instrumental Solo) </a> </li>
+          <li class="n65" style="border: 2px solid black"> <a href="#" onclick="on65()"> Aaroh Avroh ( Eastern Vocal Duet) </a> </li>
+          <li class="n66" style="border: 2px solid black"> <a href="#" onclick="on66()"> Harmoesia (Western Vocal Duet) </a> </li>
+          <li class="n67" style="border: 2px solid black"> <a href="#" onclick="on67()"> Fuzon (Vocal Fusion Duet) </a> </li>
+          <li class="n68" style="border: 2px solid black"> <a href="#" onclick="on68()"> Resonance (BOB Western) </a> </li>
+          <li class="n69" style="border: 2px solid black"> <a href="#" onclick="on69()"> Tarang (BOB Eastern)</a> </li>
+          <li class="n691" style="border: 2px solid black"> <a href="#" onclick="on691()"> Beatdrop (Beatbox/Rap Battle)
+ </a> </li>
+          <li class="n692" style="height:60px;border: 2px solid black"> <a href="#" onclick="on692()"> Mixmasters (DJ Battle) </a> </li>
+      </section>
+			
+			<div id="right_sidebar">
+                <div class="component">
+                    <a href="https://www.facebook.com/srmmilan" target="_blank" id="facebook" class="icon icon-cube1 facebook">facebook</a>
+                    <br>
+                    <a href="https://twitter.com/srm_milan" target="_blank" id="twitter" class="icon icon-cube2 twitter">twitter</a>
+                    <br>
+                    <a href="https://www.youtube.com/channel/UCUIrUI90eAPPowez3zKAftg" target="_blank" id="youtube" class="icon icon-cube3 googleplus">youtube</a>
+                    <br>
+                    <a href="https://www.instagram.com/srmmilan/" target="_blank" id="youtube" class="icon icon-cube4 googleplus">Instagram</a>
+                </div>
+            </div>
+		</ul>
+		</center>
+		 
+	</div>
+
+<script>
+function on11() {
+  document.getElementById("overlay11").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off11() {
+  document.getElementById("overlay11").style.display = "none";
+}
+
+function on12() {
+  document.getElementById("overlay12").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off12() {
+  document.getElementById("overlay12").style.display = "none";
+}
+
+function on13() {
+  document.getElementById("overlay13").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off13() {
+  document.getElementById("overlay13").style.display = "none";
+}
+
+function on14() {
+  document.getElementById("overlay14").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off14() {
+ document.getElementById("overlay14").style.display = "none";
+}
+
+function on15() {
+  document.getElementById("overlay15").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off15() {
+  document.getElementById("overlay15").style.display = "none";
+}
+
+function on16() {
+  document.getElementById("overlay16").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off16() {
+  document.getElementById("overlay16").style.display = "none";
+}
+
+function on17() {
+  document.getElementById("overlay17").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off17() {
+  document.getElementById("overlay17").style.display = "none";
+}
+
+function on18() {
+  document.getElementById("overlay18").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off18() {
+  document.getElementById("overlay18").style.display = "none";
+}
+
+function on19() {
+  document.getElementById("overlay19").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off19() {
+  document.getElementById("overlay19").style.display = "none";
+}
+
+function on21() {
+  document.getElementById("overlay21").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off21() {
+  document.getElementById("overlay21").style.display = "none";
+}
+
+function on22() {
+  document.getElementById("overlay22").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off22() {
+  document.getElementById("overlay22").style.display = "none";
+}
+
+function on23() {
+  document.getElementById("overlay23").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off23() {
+  document.getElementById("overlay23").style.display = "none";
+}
+
+function on31() {
+  document.getElementById("overlay31").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off31() {
+  document.getElementById("overlay31").style.display = "none";
+}
+
+function on32() {
+  document.getElementById("overlay32").style.display = "block";
+  document.getElementById("overlay293").style.display = "none";
+}
+function off32() {
+  document.getElementById("overlay32").style.display = "none";
+}
+
+function on33() {
+  document.getElementById("overlay33").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off33() {
+  document.getElementById("overlay33").style.display = "none";
+}
+
+function on34() {
+  document.getElementById("overlay34").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off34() {
+  document.getElementById("overlay34").style.display = "none";
+}
+
+function on35() {
+  document.getElementById("overlay35").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off35() {
+  document.getElementById("overlay35").style.display = "none";
+}
+
+function on36() {
+  document.getElementById("overlay36").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off36() {
+  document.getElementById("overlay36").style.display = "none";
+}
+
+function on37() {
+  document.getElementById("overlay37").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off37() {
+  document.getElementById("overlay37").style.display = "none";
+}
+
+function on38() {
+  document.getElementById("overlay38").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off38() {
+  document.getElementById("overlay38").style.display = "none";
+}
+
+function on39() {
+  document.getElementById("overlay39").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off39() {
+  document.getElementById("overlay39").style.display = "none";
+}
+
+function on391() {
+  document.getElementById("overlay391").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off391() {
+  document.getElementById("overlay391").style.display = "none";
+}
+
+function on392() {
+  document.getElementById("overlay392").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off392() {
+  document.getElementById("overlay392").style.display = "none";
+}
+
+function on41() {
+  document.getElementById("overlay41").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off41() {
+  document.getElementById("overlay41").style.display = "none";
+}
+
+function on42() {
+  document.getElementById("overlay42").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off42() {
+  document.getElementById("overlay42").style.display = "none";
+}
+
+function on43() {
+  document.getElementById("overlay43").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off43() {
+  document.getElementById("overlay43").style.display = "none";
+}
+
+function on44() {
+  document.getElementById("overlay44").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off44() {
+  document.getElementById("overlay44").style.display = "none";
+}
+
+function on45() {
+  document.getElementById("overlay45").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off45() {
+  document.getElementById("overlay45").style.display = "none";
+}
+
+function on46() {
+  document.getElementById("overlay46").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off46() {
+  document.getElementById("overlay46").style.display = "none";
+}
+
+function on47() {
+  document.getElementById("overlay47").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off47() {
+  document.getElementById("overlay47").style.display = "none";
+}
+
+function on48() {
+  document.getElementById("overlay48").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off48() {
+  document.getElementById("overlay48").style.display = "none";
+}
+
+function on49() {
+  document.getElementById("overlay49").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off49() {
+  document.getElementById("overlay49").style.display = "none";
+}
+
+function on491() {
+  document.getElementById("overlay491").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";;
+}
+function off491() {
+  document.getElementById("overlay491").style.display = "none";
+}
+
+function on492() {
+  document.getElementById("overlay492").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off492() {
+  document.getElementById("overlay492").style.display = "none";
+}
+
+function on51() {
+  document.getElementById("overlay51").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off51() {
+  document.getElementById("overlay51").style.display = "none";
+}
+
+function on52() {
+  document.getElementById("overlay52").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off52() {
+  document.getElementById("overlay52").style.display = "none";
+}
+
+function on53() {
+  document.getElementById("overlay53").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off53() {
+  document.getElementById("overlay53").style.display = "none";
+}
+
+function on54() {
+  document.getElementById("overlay54").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off54() {
+  document.getElementById("overlay54").style.display = "none";
+}
+
+function on55() {
+  document.getElementById("overlay55").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off55() {
+  document.getElementById("overlay55").style.display = "none";
+}
+
+function on56() {
+  document.getElementById("overlay56").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off56() {
+  document.getElementById("overlay56").style.display = "none";
+}
+
+function on57() {
+  document.getElementById("overlay57").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off57() {
+  document.getElementById("overlay57").style.display = "none";
+}
+
+function on58() {
+  document.getElementById("overlay58").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off58() {
+  document.getElementById("overlay58").style.display = "none";
+}
+
+function on59() {
+  document.getElementById("overlay59").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off59() {
+  document.getElementById("overlay59").style.display = "none";
+}
+
+function on591() {
+  document.getElementById("overlay591").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off591() {
+  document.getElementById("overlay591").style.display = "none";
+}
+
+function on592() {
+  document.getElementById("overlay592").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off592() {
+  document.getElementById("overlay592").style.display = "none";
+}
+
+function on593() {
+  document.getElementById("overlay593").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off593() {
+  document.getElementById("overlay593").style.display = "none";
+}
+
+function on61() {
+  document.getElementById("overlay61").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off61() {
+  document.getElementById("overlay61").style.display = "none";
+}
+
+function on62() {
+  document.getElementById("overlay62").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off62() {
+  document.getElementById("overlay62").style.display = "none";
+}
+
+function on63() {
+  document.getElementById("overlay63").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off63() {
+  document.getElementById("overlay63").style.display = "none";
+}
+
+function on64() {
+  document.getElementById("overlay64").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off64() {
+  document.getElementById("overlay64").style.display = "none";
+}
+
+function on65() {
+  document.getElementById("overlay65").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off65() {
+  document.getElementById("overlay65").style.display = "none";
+}
+
+function on66() {
+  document.getElementById("overlay66").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off66() {
+  document.getElementById("overlay66").style.display = "none";
+}
+
+function on67() {
+  document.getElementById("overlay67").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off67() {
+  document.getElementById("overlay67").style.display = "none";
+}
+
+function on68() {
+  document.getElementById("overlay68").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off68() {
+  document.getElementById("overlay68").style.display = "none";
+}
+
+function on69() {
+  document.getElementById("overlay69").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off69() {
+  document.getElementById("overlay69").style.display = "none";
+}
+
+function on691() {
+  document.getElementById("overlay691").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off691() {
+  document.getElementById("overlay691").style.display = "none";
+}
+
+function on692() {
+  document.getElementById("overlay692").style.display = "block";
+  document.getElementsByClassName("man").style.display = "none";
+}
+function off692() {
+  document.getElementById("overlay692").style.display = "none";
+}
+
+</script>
+
+	<!-- Scripts -->
+	<script type = "text/javascript" src="./public/javascripts/libraries.min.js"></script>
+	<script type = "text/javascript" src="./public/javascripts/jquery.parallax.js"></script>
+	<script>
+
+	// jQuery Selections
+	var $html = $('html'),
+			$container = $('#container'),
+			$prompt = $('#prompt'),
+			$toggle = $('#toggle'),
+			$about = $('#about'),
+			$scene = $('#scene');
+
+	// Hide browser menu.
+	(function() {
+		setTimeout(function(){window.scrollTo(0,0);},0);
+	})();
+
+	// Setup FastClick.
+	FastClick.attach(document.body);
+
+	// Add touch functionality.
+	if (Hammer.HAS_TOUCHEVENTS) {
+		$container.hammer({drag_lock_to_axis: true});
+		_.tap($html, 'a,button,[data-tap]');
+	}
+
+	// Add touch or mouse class to html element.
+	$html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
+
+	// Resize handler.
+	(resize = function() {
+		$scene[0].style.width = window.innerWidth + 'px';
+		$scene[0].style.height = window.innerHeight + 'px';
+		if (!$prompt.hasClass('hide')) {
+			if (window.innerWidth < 600) {
+				$toggle.addClass('hide');
+			} else {
+				$toggle.removeClass('hide');
+			}
+		}
+	})();
+
+	// Attach window listeners.
+	window.onresize = _.debounce(resize, 200);
+	window.onscroll = _.debounce(resize, 200);
+
+	function showDetails() {
+		$about.removeClass('hide');
+		$toggle.removeClass('i');
+	}
+
+	function hideDetails() {
+		$about.addClass('hide');
+		$toggle.addClass('i');
+	}
+
+	// Listen for toggle click event.
+	$toggle.on('click', function(event) {
+		$toggle.hasClass('i') ? showDetails() : hideDetails();
+	});
+
+	// Pretty simple huh?
+	$scene.parallax();
+
+	// Check for orientation support.
+	setTimeout(function() {
+		if ($scene.data('mode') === 'cursor') {
+			$prompt.removeClass('hide');
+			if (window.innerWidth < 600) $toggle.addClass('hide');
+			$prompt.on('click', function(event) {
+				$prompt.addClass('hide');
+				if (window.innerWidth < 600) {
+					setTimeout(function() {
+						$toggle.removeClass('hide');
+					},1200);
+				}
+			});
+		}
+	},1000);
+
+	// Twitter stuff.
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+	// Facebook stuff.
+	(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "http://connect.facebook.net/en_GB/all.js#xfbml=1&appId=709933052350821";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+</body>
+</html>

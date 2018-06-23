@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Milan 18</title>
+    <link rel="icon" type="image/png" href="public/images/milanico.png"/>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="Diretorate Of student Affairs">
+	<meta name="description" content="Milan 18, SRM university Cultural Fest 11th edition">
+	<meta name="keywords" content="Milan,Cultural Fest,SRM University,Diretorate Of student Affairs,National Level Cultural Fest">
+
+	<!-- Open Graph Meta Data -->
+	<meta property="og:description" content="Milan 18, SRM university Cultural Fest 11th edition">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+
+	<!-- Twitter Card Meta Data -->
+	<!-- <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="http://wagerfield.github.io/parallax/index.html">
+	<meta name="twitter:creator" content="@wagerfield">
+	<meta name="twitter:title" content="parallax.html">
+	<meta name="twitter:description" content="Simple, lightweight Parallax Engine that reacts to the orientation of a smart device">
+	<meta name="twitter:image" content="http://wagerfield.github.io/parallax/assets/images/thumbnail.png"> -->
+
+	<!-- Humans -->
+	<!-- <link rel="author" href="humans.txt" /> -->
+
+	<!-- Styles -->
+
+	<link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+	<style type="text/css">
+	.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+
+/* =============================================================================
+  ICONS - DEMO 5
+============================================================================= */
+.icon-cube1 {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube1::before,
+.icon-cube1::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("public/images/nfb.png");
+  background-image: url("public/images/nfb.png"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube1::before {
+  z-index: 2;
+  background-color: #383838;
+}
+
+.icon-cube1::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube1:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube1:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube1.facebook::before,
+.icon-cube1.facebook::after {
+  background-position: 3px 3px;
+}
+
+.icon-cube1.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube1.twitter::before,
+.icon-cube1.twitter::after {
+  background-position: 0 0;
+}
+
+.icon-cube1.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube1.googleplus::before,
+.icon-cube1.googleplus::after {
+  background-position: 0px 0;
+}
+
+.icon-cube1.googleplus::after {
+  background-color: #d34836;
+}
+
+/* github */
+
+/*for second cube*/
+
+.icon-cube2 {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube2::before,
+.icon-cube2::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("public/images/ntwitter.png");
+  background-image: url("public/images/ntwitter.png"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube2::before {
+  z-index: 2;
+  background-color: #383838;
+}
+
+.icon-cube2::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube2:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube2:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* twitter */
+.icon-cube2.twitter::before,
+.icon-cube2.twitter::after {
+  background-position: 0 0;
+}
+
+.icon-cube2.twitter::after {
+  background-color: #4099ff;
+}
+
+/*for third cube*/
+
+.icon-cube3 {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube3::before,
+.icon-cube3::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("public/images/nyoutube.png");
+  background-image: url("public/images/nyoutube.png"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube3::before {
+  z-index: 2;
+  background-color: #383838;
+}
+
+.icon-cube3::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube3:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube3:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube3.facebook::before,
+.icon-cube3.facebook::after {
+  background-position: 3px 3px;
+}
+
+.icon-cube3.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube3.twitter::before,
+.icon-cube3.twitter::after {
+  background-position: 0 0;
+}
+
+.icon-cube3.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube3.googleplus::before,
+.icon-cube3.googleplus::after {
+  background-position: 0px 0;
+}
+
+.icon-cube3.googleplus::after {
+  background-color: #b31217;
+}
+
+
+
+
+.icon-cube4 {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube4::before,
+.icon-cube4::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("public/images/insta.png");
+  background-image: url("public/images/insta.png"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube4::before {
+  z-index: 2;
+  background-color: #383838;
+}
+
+.icon-cube4::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube4:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube4:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube4.facebook::before,
+.icon-cube4.facebook::after {
+  background-position: 3px 3px;
+}
+
+.icon-cube4.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube4.twitter::before,
+.icon-cube4.twitter::after {
+  background-position: 0 0;
+}
+
+.icon-cube4.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube4.googleplus::before,
+.icon-cube4.googleplus::after {
+  background-position: 0px 0;
+}
+
+.icon-cube4.googleplus::after {
+  background-color: #9b683f;
+}
+
+
+
+		#right_sidebar {
+
+            position: absolute;
+
+            right: 1px;
+
+            top: 200px;
+
+        }
+       
+	</style>
+	<script type = "text/javascript" src="public/javascripts/jquery-1.11.1.min.js"></script> 
+	<script type = "text/javascript" src="public/javascripts/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="public/stylesheets/component.css">
+	<link rel="stylesheet" type="text/css" href="public/stylesheets/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="public/stylesheets/styles.css">
+	
+
+</head>
+<body>
+	
+
+<div class="header-top">
+				
+		<nav class="navbar navbar-default">
+			<div class="container-fluid" style="background:rgba(0, 0, 0, 0.75);">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				
+				<div class="collapse navbar-collapse navbar-right" id="navbar">
+					<div class="top-nav">
+
+						<a href="index.html" class="hover-effect scroll">
+								<span>
+									<span><b>HOME</b></span>
+									<span><b>HOME</b></span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="about.html" class="hover-effect scroll">
+								<span>
+									<span><b>ABOUT US</b></span>
+									<span><b>ABOUT US</b></span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="events.html" class="hover-effect scroll">
+								<span>
+									<span><b>EVENTS</b></span>
+									<span><b>EVENTS</b></span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="gallery.html" class="hover-effect scroll">
+								<span>
+									<span><b>GALLERY</b></span>
+									<span><b>GALLERY</b></span>
+									<span></span>
+								</span>
+							</a>
+
+						<!-- <a href="team" class="hover-effect scroll">
+								<span>
+									<span><b>THE TEAM</b></span>
+									<span><b>THE TEAM</b></span>
+									<span></span>
+								</span>
+							</a> -->
+							
+							<a href="contact.html" class="hover-effect scroll">
+								<span>
+									<span><b>CONTACT</b></span>
+									<span><b>CONTACT</b></span>
+									<span></span>
+								</span>
+							</a>
+
+
+					</div>
+				</div>
+				<div class="collapse navbar-collapse navbar-left" id="navbar">
+					<div class="top-nav">
+
+						<!-- <a href="http://srmuniv.ac.in/" class="hover-effect scroll navbar-left">
+								<span>
+									<img src="./images/srm.png" style="width:100px;margin-top:12px;">
+									<span></span>
+								</span>
+							</a>
+
+						<a href="http://srmdsa.org/home" class="hover-effect scroll navbar-left" style="width:50px;">
+								<span>
+									<img src="./images/dsa.png" style="width:40px;margin-top:3px;">
+									<span></span>
+								</span>
+							</a> -->
+
+						<a href="index.html" class="hover-effect scroll navbar-left">
+								<span>
+									<img src="public/images/milan logo.png" style="width:110px;margin-top:6px;">
+									<span></span>
+								</span>
+							</a>
+						</div>
+				</div>
+
+			</div>
+		</nav>
+		</div>
+
+	<div id="fb-root"></div>
+	<!-- <audio controls loop>
+		<source src="Ocean.mp3" type="audio/mpeg">
+
+	</audio> -->
+	<!-- <audio id = "sounds" src="./images/Ocean.mp3" controls autoplay></audio> -->
+
+	<div id="container" class="wrapper">
+		<center>
+	   
+		<ul id="scene" class="scene unselectable" 
+			data-friction-x="0.1"
+			data-friction-y="0.1"
+			data-scalar-x="25"
+			data-scalar-y="15"> 
+			<li class="layer" data-depth="0.00"></li>
+			<li class="layer" data-depth="0.10"><div class="background"></div></li>
+			<li class="layer" data-depth="0.10"><div class="light orange b phase-4"></div></li>
+			<li class="layer" data-depth="0.10"><div class="light purple c phase-5"></div></li>
+			<li class="layer" data-depth="0.10"><div class="light orange d phase-3"></div></li>
+			
+			<li class="layer" data-depth="0.15">
+				<ul class="rope depth-10">
+					<li><img src="public/images/rope.png" alt="Rope"></li>
+					<li class="hanger position-2">
+						<div class="board cloud-2 swing-1"></div>
+					</li>
+					<!-- <li class="hanger position-4">
+						<div class="board cloud-1 swing-"></div>
+					</li> -->
+					<li class="hanger position-8">
+						<div class="board cloud-5 swing-5"></div>
+					</li>
+				</ul>
+			</li>
+
+			<li class="layer" data-depth="0.30">
+				<ul class="rope depth-30">
+					<li><img src="public/images/rope.png" alt="Rope"></li>
+					<li class="hanger position-1">
+						 <div class="boardcloud-1 swing-3"> </div> 
+					</li> 
+					<!-- <li class="hanger position-5">
+						<div class="board cloud-4 swing-1"></div>
+					</li> -->
+				</ul>
+			</li>
+
+			<li class="layer" data-depth="0.30"><div class="wave paint depth-30"></div></li>
+			<li class="layer" data-depth="0.40"><div class="wave plain depth-40"></div></li>
+			<li class="layer" data-depth="0.50"><div class="wave paint depth-50"></div></li>
+			<li class="layer" data-depth="0.60"><div class="lighthouse depth-60"></div></li>
+			<li class="layer" data-depth="0.60">
+				<ul class="rope depth-60">
+
+					<li><img src="public/images/rope.png" alt="Rope"></li>
+					<li class="hanger position-3">
+						<div class="board birds swing-5"></div>
+					</li>
+					
+					<li class="hanger position-6">
+					    <div class="board cloud-3 swing-2"></div> 
+					</li>
+					<li class="hanger position-8">
+						<div class="board cloud-4 swing-4"></div>
+					</li>
+				</ul>
+			</li>
+			<li class="layer" data-depth="0.60"><div class="wave plain depth-60"></div></li>
+			<li class="layer" data-depth="0.80"><div class="wave plain depth-80"></div></li>
+			<li class="layer" data-depth="1.00"><div class="wave paint depth-100"></div></li>
+			<li class="layer" data-depth="0.20"><div class="title"><img src="public/images/milan logo2.png"></div></li>
+			<div id="right_sidebar">
+                <div class="component">
+                    <a href="https://www.facebook.com/srmmilan" target="_blank" id="facebook" class="icon icon-cube1 facebook">facebook</a>
+                    <br>
+                    <a href="https://twitter.com/srm_milan" target="_blank" id="twitter" class="icon icon-cube2 twitter">twitter</a>
+                    <br>
+                    <a href="https://www.youtube.com/channel/UCUIrUI90eAPPowez3zKAftg" target="_blank" id="youtube" class="icon icon-cube3 googleplus">google+</a>
+                    <br>
+                    <a href="https://www.instagram.com/srmmilan/" target="_blank" id="youtube" class="icon icon-cube4 googleplus">Instagram</a>
+                </div>
+            </div>
+		</ul>
+		</center>
+	</div>
+	
+
+	<!-- Scripts -->
+	<script type = "text/javascript" src="public/javascripts/libraries.min.js"></script>
+	<script type = "text/javascript" src="public/javascripts/jquery.parallax.js"></script>
+
+	<script>
+
+	// jQuery Selections
+
+	var $html = $('html'),
+			$container = $('#container'),
+			$prompt = $('#prompt'),
+			$toggle = $('#toggle'),
+			$about = $('#about'),
+			$scene = $('#scene');
+
+	// Hide browser menu.
+	(function() {
+		setTimeout(function(){window.scrollTo(0,0);},0);
+	})();
+
+	// Setup FastClick.
+	FastClick.attach(document.body);
+
+	// Add touch functionality.
+	if (Hammer.HAS_TOUCHEVENTS) {
+		$container.hammer({drag_lock_to_axis: true});
+		_.tap($html, 'a,button,[data-tap]');
+	}
+
+	// Add touch or mouse class to html element.
+	$html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
+
+	// Resize handler.
+	(resize = function() {
+		$scene[0].style.width = window.innerWidth + 'px';
+		$scene[0].style.height = window.innerHeight + 'px';
+		if (!$prompt.hasClass('hide')) {
+			if (window.innerWidth < 600) {
+				$toggle.addClass('hide');
+			} else {
+				$toggle.removeClass('hide');
+			}
+		}
+	})();
+
+	// Attach window listeners.
+	window.onresize = _.debounce(resize, 200);
+	window.onscroll = _.debounce(resize, 200);
+
+	function showDetails() {
+		$about.removeClass('hide');
+		$toggle.removeClass('i');
+	}
+
+	function hideDetails() {
+		$about.addClass('hide');
+		$toggle.addClass('i');
+	}
+
+	// Listen for toggle click event.
+	$toggle.on('click', function(event) {
+		$toggle.hasClass('i') ? showDetails() : hideDetails();
+	});
+
+	// Pretty simple huh?
+	$scene.parallax();
+
+	// Check for orientation support.
+	setTimeout(function() {
+		if ($scene.data('mode') === 'cursor') {
+			$prompt.removeClass('hide');
+			if (window.innerWidth < 600) $toggle.addClass('hide');
+			$prompt.on('click', function(event) {
+				$prompt.addClass('hide');
+				if (window.innerWidth < 600) {
+					setTimeout(function() {
+						$toggle.removeClass('hide');
+					},1200);
+				}
+			});
+		}
+	},1000);
+
+	// Twitter stuff.
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+	// Facebook stuff.
+	(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "http://connect.facebook.net/en_GB/all.js#xfbml=1&appId=709933052350821";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	
+ </script>
+
+</body>
+
+<!-- Mirrored from matthew.wagerfield.com/parallax/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Jun 2017 08:38:56 GMT -->
+</html>
